@@ -1,0 +1,280 @@
+{
+	"info": {
+		"_postman_id": "fdb6be97-bb95-43af-a8c5-8610b1698093",
+		"name": "Transactions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create a Transaction",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3e275f7d-8c30-451a-a7e3-9e2e1220e6ea",
+						"exec": [
+							"pm.test(\"Status code should be equal to 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
+							"pm.test(\"An 'id' property should be present\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('id');",
+							"});",
+							"",
+							"pm.test(\"A 'cost' property should be computed\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('cost');",
+							"    pm.expect(jsonData.cost).to.eql(-10791);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"from\": {\n\t\t\"id\" : 1,\n\t\t\"category\": \"Perso\",\n\t\t\"label\": \"ING Direct\"\n\t},\n\t\"transactions\": [\n\t\t{\n\t\t\t\"income\" : 0,\n\t\t\t\"outcome\": 127.75,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 1,\n\t\t\t\t\"category\": \"Transport\",\n\t\t\t\t\"label\": \"Essence\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"description\": \"Some description\"\n\t\t},\n\t\t{\n\t\t\t\"income\" : 19.84,\n\t\t\t\"outcome\": 0,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 2,\n\t\t\t\t\"category\": \"Maison\",\n\t\t\t\t\"label\": \"Loyer\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"description\": \"Some description about mortgage\"\n\t\t}\n\t]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{host}}/transactions",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a Transaction",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9aa4f34f-1662-45a1-a2b8-437ba1a19ffd",
+						"exec": [
+							"pm.test(\"Status code should be equal to 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Data property should be equal to the creation request\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    ",
+							"    // id",
+							"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"id\"));",
+							"    ",
+							"    // from",
+							"    pm.expect(jsonData.from.id).to.eql(1);",
+							"    pm.expect(jsonData.from.category).to.eql(\"Perso\");",
+							"    pm.expect(jsonData.from.label).to.eql(\"ING Direct\");",
+							"    ",
+							"    // transactions",
+							"    pm.expect(jsonData.transactions.length).to.eql(2);",
+							"    pm.expect(jsonData.transactions[1].description).to.eql(\"Another description about mortgage\");",
+							"    ",
+							"    // cost",
+							"    pm.expect(jsonData.cost).to.eql(-10791);",
+							"    ",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": \"{{id}}\",\n\t\"from\": {\n\t\t\"id\" : 1,\n\t\t\"category\": \"Perso\",\n\t\t\"label\": \"ING Direct\"\n\t},\n\t\"transactions\": [\n\t\t{\n\t\t\t\"income\" : 0,\n\t\t\t\"outcome\": 127.75,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 1,\n\t\t\t\t\"category\": \"Transport\",\n\t\t\t\t\"label\": \"Essence\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"description\": \"Some description\"\n\t\t},\n\t\t{\n\t\t\t\"income\" : 19.84,\n\t\t\t\"outcome\": 0,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 2,\n\t\t\t\t\"category\": \"Maison\",\n\t\t\t\t\"label\": \"Loyer\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"description\": \"Another description about mortgage\"\n\t\t}\n\t]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://{{host}}/transactions/{{id}}",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List All Transactions",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "890e5a2b-0253-4d4b-9b89-1dbf34c4adf7",
+						"exec": [
+							"pm.test(\"Status code should be equal to 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Transactions size list should be equal to 1\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.legth).to.eql(1);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{host}}/transactions",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a unique transaction",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cece4345-87fc-4a17-aa57-0d562c7f9af7",
+						"exec": [
+							"pm.test(\"Status code should be equal to 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Data property should be equal to the creation request\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    ",
+							"    // id",
+							"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"id\"));",
+							"    ",
+							"    // from",
+							"    pm.expect(jsonData.from.id).to.eql(1);",
+							"    pm.expect(jsonData.from.category).to.eql(\"Perso\");",
+							"    pm.expect(jsonData.from.label).to.eql(\"ING Direct\");",
+							"    ",
+							"    // transactions",
+							"    pm.expect(jsonData.transactions.length).to.eql(2);",
+							"    pm.expect(jsonData.transactions[1].description).to.eql(\"Another description about mortgage\");",
+							"    ",
+							"    // cost",
+							"    pm.expect(jsonData.cost).to.eql(-10791);",
+							"    ",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{host}}/transactions/{{id}}",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a transaction",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "37c2d84d-232a-4f76-a907-d1146451913f",
+						"exec": [
+							"pm.test(\"Status code should be equal to 200\", function () {",
+							"    pm.response.to.have.status(204);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://{{host}}/transactions/{{id}}",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a unique transaction - After delete",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "005c8b56-2d35-453c-9c6d-09c2201ee2e1",
+						"exec": [
+							"pm.test(\"Status code should be equal to 404\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{host}}/transactions/{{id}}",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

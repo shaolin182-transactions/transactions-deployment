@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  transactions-server:
+    container_name: transactions-server
+    image: jugirard/transactions-java-server:v0.0.1-beta.6
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+  mongo:
+    container_name: transactions-mongo-db
+    image: mongo:4.2.6
+    volumes:
+      - transactions-data-volume:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  transactions-data-volume:
