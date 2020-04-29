@@ -27,7 +27,7 @@ jobs:
 
     # Run integration tests with newman
     - name: Run postman tests
-    - uses: matt-ball/newman-action@master
+      uses: matt-ball/newman-action@master
       with:
         - collection: postman/Transactions.postman_collection.json
         - environment: postman/Transactions-localhost.postman_environment.json
