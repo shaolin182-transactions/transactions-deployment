@@ -23,3 +23,14 @@ jobs:
     # Run app
     - name: Build the stack
       run: docker-compose up -d
+
+    # Run integration tests with newman
+    - name: Run postman tests
+    - uses: matt-ball/newman-action@master
+      with:
+        - collection: postman/Transactions.postman_collection.json
+        - environment: postman/Transactions-localhost.postman_environment.json
+
+    # Stop this app
+    - name: Build the stack
+      run: docker-compose down -v
