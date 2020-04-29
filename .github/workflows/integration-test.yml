@@ -25,6 +25,11 @@ jobs:
     - name: Build the stack
       run: docker-compose up -d
 
+    - name: Wait for stack to startup
+      uses: jakejarvis/wait-action@master
+      with:
+        time: '30s'
+
     - name: Show logs
       run: docker-compose logs
 
