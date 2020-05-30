@@ -2,7 +2,7 @@ version: "3.7"
 services:
   transactions-server:
     container_name: transactions-server
-    image: jugirard/transactions-java-server:v0.0.1-beta.6
+    image: jugirard/transactions-java-server:latest
     ports:
       - "8080:8080"
     links:
