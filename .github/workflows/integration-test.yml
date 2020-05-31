@@ -23,7 +23,7 @@ jobs:
 
     # Run app
     - name: Build the stack
-      run: docker-compose up -d
+      run: docker-compose pull && docker-compose up -d
 
     - name: Wait for stack to startup
       uses: jakejarvis/wait-action@master
