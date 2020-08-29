@@ -1,12 +1,14 @@
 version: "3.7"
 services:
+
   transactions-server:
     container_name: transactions-server
     image: jugirard/transactions-java-server:latest
     ports:
       - "8080:8080"
-    links:
+    depends_on:
       - mongo
+
   mongo:
     container_name: transactions-mongo-db
     image: mongo:4.2.6
@@ -15,5 +17,26 @@ services:
     ports:
       - "27017:27017"
 
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.8.1
+    ports:
+      - 9200:9200
+      - 9300:9300
+    environment:
+      - discovery.type=single-node
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.8.1
+    ports:
+      - 5601:5601
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+    depends_on:
+      - elasticsearch
+
 volumes:
   transactions-data-volume:
+  esdata:
+    driver: local
