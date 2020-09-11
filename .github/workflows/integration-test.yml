@@ -30,7 +30,7 @@ jobs:
     - name: Wait for stack to startup
       uses: jakejarvis/wait-action@master
       with:
-        time: '30s'
+        time: '90s'
 
     - name: Show logs
       run: docker-compose logs
