@@ -23,6 +23,8 @@ jobs:
 
     # Run app
     - name: Build the stack
+      env:
+        TARGET_ENV: staging
       run: docker-compose pull && docker-compose up -d
 
     - name: Wait for stack to startup

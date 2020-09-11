@@ -6,7 +6,21 @@ services:
     image: jugirard/transactions-java-server:latest
     ports:
       - "8080:8080"
+    environment:
+      - TARGET_ENV
     depends_on:
+      - mongo
+
+  transactions-sync-data:
+    container_name: transactions-sync-data
+    image: jugirard/transactions-sync-process:latest
+    ports:
+      - "8081:8080"
+    environment:
+      - TARGET_ENV
+    restart: on-failure
+    depends_on:
+      - elasticsearch
       - mongo
 
   mongo:
@@ -18,6 +32,7 @@ services:
       - "27017:27017"
 
   elasticsearch:
+    container_name: transactions-elastic-search
     image: docker.elastic.co/elasticsearch/elasticsearch:7.8.1
     ports:
       - 9200:9200
