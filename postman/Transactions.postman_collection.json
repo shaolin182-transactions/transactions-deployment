@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "fdb6be97-bb95-43af-a8c5-8610b1698093",
+		"_postman_id": "0dc3f72e-521e-4c5a-adfc-00f164646556",
 		"name": "Transactions - Integration Test",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -14,7 +14,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "4bd886d5-0251-4d3c-8e9e-fc19b28808a6",
 								"exec": [
 									"pm.test(\"Status code should be equal to 201\", function () {",
 									"    pm.response.to.have.status(201);",
@@ -69,7 +68,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "f1a067fc-6084-45a6-a7fa-4b63c4a3e4f8",
 								"exec": [
 									"pm.test(\"Status code should be equal to 201\", function () {",
 									"    pm.response.to.have.status(201);",
@@ -125,7 +123,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "d8b1ce73-45f1-45bf-9940-30a317e0deba",
 								"exec": [
 									"pm.globals.unset(\"id\");",
 									"",
@@ -171,7 +168,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"date\": \"2020-05-01T22:16:37.683+01:00\",\n\t\"transactions\": [\n\t\t{\n\t\t\t\"income\" : 0,\n\t\t\t\"outcome\": 127.75,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 1,\n\t\t\t\t\"category\": \"Transport\",\n\t\t\t\t\"label\": \"Essence\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"bankAccount\": {\n\t\t\t\t\"id\" : 1,\n\t\t\t\t\"category\": \"Perso\",\n\t\t\t\t\"label\": \"ING Direct\"\n\t\t\t},\n\t\t\t\"description\": \"Some description\"\n\t\t},\n\t\t{\n\t\t\t\"income\" : 19.84,\n\t\t\t\"outcome\": 0,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 2,\n\t\t\t\t\"category\": \"Maison\",\n\t\t\t\t\"label\": \"Loyer\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"bankAccount\": {\n\t\t\t\t\"id\" : 1,\n\t\t\t\t\"category\": \"Perso\",\n\t\t\t\t\"label\": \"ING Direct\"\n\t\t\t},\n\t\t\t\"description\": \"Some description about mortgage\"\n\t\t}\n\t]\n}",
+							"raw": "{\n\t\"date\": \"2020-05-01T22:16:37.683+01:00\",\n\t\"transactions\": [\n\t\t{\n\t\t\t\"income\" : 0,\n\t\t\t\"outcome\": 127.75,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 2,\n\t\t\t\t\"category\": \"Transport\",\n\t\t\t\t\"label\": \"Essence\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"bankAccount\": {\n\t\t\t\t\"id\" : 1\n\t\t\t},\n\t\t\t\"description\": \"Some description\"\n\t\t},\n\t\t{\n\t\t\t\"income\" : 19.84,\n\t\t\t\"outcome\": 0,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 1\n\t\t\t},\n\t\t\t\"bankAccount\": {\n\t\t\t\t\"id\" : 1\n\t\t\t},\n\t\t\t\"description\": \"Some description about mortgage\"\n\t\t}\n\t]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -197,7 +194,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "9aa4f34f-1662-45a1-a2b8-437ba1a19ffd",
 								"exec": [
 									"pm.test(\"Status code should be equal to 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -236,7 +232,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"id\": \"{{id}}\",\n\t\"date\": \"2020-05-01T22:16:37.683Z\",\n\t\"transactions\": [\n\t\t{\n\t\t\t\"income\" : 0,\n\t\t\t\"outcome\": 127.75,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 1,\n\t\t\t\t\"category\": \"Transport\",\n\t\t\t\t\"label\": \"Essence\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"bankAccount\": {\n\t\t\t\t\"id\" : 1,\n\t\t\t\t\"category\": \"Perso\",\n\t\t\t\t\"label\": \"ING Direct\"\n\t\t\t},\n\t\t\t\"description\": \"Some description\"\n\t\t},\n\t\t{\n\t\t\t\"income\" : 19.84,\n\t\t\t\"outcome\": 0,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 2,\n\t\t\t\t\"category\": \"Maison\",\n\t\t\t\t\"label\": \"Loyer\",\n\t\t\t\t\"type\": \"COURANTE\"\n\t\t\t},\n\t\t\t\"bankAccount\": {\n\t\t\t\t\"id\" : 1,\n\t\t\t\t\"category\": \"Perso\",\n\t\t\t\t\"label\": \"ING Direct\"\n\t\t\t},\n\t\t\t\"description\": \"Another description about mortgage\"\n\t\t}\n\t]\n}",
+							"raw": "{\n\t\"id\": \"{{id}}\",\n\t\"date\": \"2020-05-01T22:16:37.683Z\",\n\t\"transactions\": [\n\t\t{\n\t\t\t\"income\" : 0,\n\t\t\t\"outcome\": 127.75,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 2\n\t\t\t},\n\t\t\t\"bankAccount\": {\n\t\t\t\t\"id\" : 1\n\t\t\t},\n\t\t\t\"description\": \"Some description\"\n\t\t},\n\t\t{\n\t\t\t\"income\" : 19.84,\n\t\t\t\"outcome\": 0,\n\t\t\t\"category\": {\n\t\t\t\t\"id\": 1\n\t\t\t},\n\t\t\t\"bankAccount\": {\n\t\t\t\t\"id\" : 1\n\t\t\t},\n\t\t\t\"description\": \"Another description about mortgage\"\n\t\t}\n\t]\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -258,12 +254,71 @@
 					"response": []
 				},
 				{
+					"name": "Patch Transaction",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code should be equal to 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Data property should be equal to the creation request\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    ",
+									"    // id",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"id\"));",
+									"    ",
+									"    // transactions",
+									"    pm.expect(jsonData.transactions.length).to.eql(2);",
+									"    pm.expect(jsonData.transactions[1].description).to.eql(\"Another description about mortgage\");",
+									"    pm.expect(jsonData.transactions[1].category.id).to.eql(7);",
+									"    pm.expect(jsonData.transactions[1].category.category).to.eql(\"Loisir\");",
+									"    pm.expect(jsonData.transactions[1].category.label).to.eql(\"Divertissement\");",
+									"    ",
+									"    // cost",
+									"    pm.expect(jsonData.cost).to.eql(-10791);",
+									"    ",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json-patch+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"op\" : \"remove\",\n        \"path\" : \"/transactions/1\"\n    },\n    {\n        \"op\" : \"add\",\n        \"path\" : \"/transactions/1\",\n        \"value\": {\n            \"category\": {\n                \"id\": 7,\n                \"category\": \"Loisir\",\n                \"label\": \"Divertissement\",\n                \"type\": \"COURANTE\"\n            },\n            \"income\": 19.84,\n            \"outcome\": 0.0,\n            \"description\": \"Another description about mortgage\",\n            \"bankAccount\": {\n                \"id\": 1\n            }\n        }\n    },\n    {\n        \"op\" : \"replace\",\n        \"path\" : \"/transactions/1/category/type\",\n        \"value\": \"FIXE\"\n    }\n]"
+						},
+						"url": {
+							"raw": "http://{{host}}/transactions/{{id}}",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"transactions",
+								"{{id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "List All Transactions",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
-								"id": "890e5a2b-0253-4d4b-9b89-1dbf34c4adf7",
 								"exec": [
 									"pm.test(\"Status code should be equal to 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -306,7 +361,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "4064261a-3367-42f4-babf-34ef24bfb84a",
 								"exec": [
 									"pm.test(\"Status code should be equal to 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -363,7 +417,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "37c2d84d-232a-4f76-a907-d1146451913f",
 								"exec": [
 									"pm.test(\"Status code should be equal to 200\", function () {",
 									"    pm.response.to.have.status(204);",
@@ -402,7 +455,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "005c8b56-2d35-453c-9c6d-09c2201ee2e1",
 								"exec": [
 									"pm.test(\"Status code should be equal to 404\", function () {",
 									"    pm.response.to.have.status(404);",
@@ -435,8 +487,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Transactions Sync",
@@ -447,7 +498,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "70787263-fb6c-4139-8021-0d8faf334d83",
 								"exec": [
 									"pm.test(\"Status code should be equal to 204\", function () {",
 									"    pm.response.to.have.status(204);",
@@ -474,8 +524,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		},
 		{
 			"name": "Elastic Search Check",
@@ -486,7 +535,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "40559e24-9a7f-410b-b08e-dfdffbc4dc0b",
 								"exec": [
 									"pm.test(\"Status code should be equal to 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -519,7 +567,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "d5a0cdf1-f837-4070-baa5-e8b91b143fae",
 								"exec": [
 									"pm.test(\"Status code should be equal to 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -554,9 +601,7 @@
 					},
 					"response": []
 				}
-			],
-			"protocolProfileBehavior": {}
+			]
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
