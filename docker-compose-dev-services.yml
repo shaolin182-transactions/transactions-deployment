@@ -1,12 +1,6 @@
 version: "3.7"
 services:
 
-  transactions-ihm-angular:
-    container_name: transactions-ihm-angular
-    image: jugirard/transactions-ihm-angular:0.1.5
-    ports:
-      - "4200:80"
-
   transactions-config-server:
     container_name: transactions-config-server
     image: jugirard/transactions-config-server:latest
@@ -16,34 +10,9 @@ services:
       - CONFIG_USERNAME
       - CONFIG_PASSWORD
 
-  transactions-server:
-    container_name: transactions-server
-    image: jugirard/transactions-java-server:latest
-    ports:
-      - "8080:8080"
-    environment:
-      - TARGET_ENV
-      - CONFIG_SERVER
-    depends_on:
-      - mongo
-      - transactions-config-server
-
-  transactions-sync-data:
-    container_name: transactions-sync-data
-    image: jugirard/transactions-sync-process:latest
-    ports:
-      - "8081:8080"
-    environment:
-      - TARGET_ENV
-    depends_on:
-      - elasticsearch
-      - mongo
-
   mongo:
     container_name: transactions-mongo-db
     image: mongo:4.2.6
-    volumes:
-      - transactions-data-volume:/data/db
     ports:
       - "27017:27017"
 
