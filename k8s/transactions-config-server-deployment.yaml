@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -o ./k8s/ --controller deployment
+    kompose.version: 1.28.0 (c4137012e)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: transactions-config-server
+  name: transactions-config-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: transactions-config-server
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert -o ./k8s/ --controller deployment
+        kompose.version: 1.28.0 (c4137012e)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/transactions-deployment-default: "true"
+        io.kompose.service: transactions-config-server
+    spec:
+      containers:
+        - image: jugirard/transactions-config-server:v1.2.1
+          name: transactions-config-server
+          ports:
+            - containerPort: 8888
+          resources: {}
+          env:
+          - name: CONFIG_USERNAME
+            valueFrom:
+              secretKeyRef:
+                name: transactions-config-credentials
+                key: username
+          - name: CONFIG_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: transactions-config-credentials
+                key: password
+      restartPolicy: Always
+status: {}
