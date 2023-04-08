@@ -2,4 +2,8 @@
 .idea
 *.iml
 
+**/secrets
+
+env
+
 dump

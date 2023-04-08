@@ -25,21 +25,30 @@ spec:
         io.kompose.service: transactions-config-server
     spec:
       containers:
-        - image: jugirard/transactions-config-server:v1.2.1
+        - image: jugirard/transactions-config-server:v1.2.4.2
           name: transactions-config-server
           ports:
             - containerPort: 8888
           resources: {}
+          volumeMounts:
+            - name: config-volume
+              mountPath: /etc/config
           env:
-          - name: CONFIG_USERNAME
+          - name: CONFIG_PASSPHRASE
             valueFrom:
               secretKeyRef:
                 name: transactions-config-credentials
-                key: username
-          - name: CONFIG_PASSWORD
+                key: passphrase
+          - name: CONFIG_PRIVATEKEY
             valueFrom:
               secretKeyRef:
                 name: transactions-config-credentials
-                key: password
+                key: privateKey
       restartPolicy: Always
+      volumes:
+      - name: config-volume
+        configMap:
+          # Provide the name of the ConfigMap containing the files you want
+          # to add to the container
+          name: transactions-config-server-config-map
 status: {}
