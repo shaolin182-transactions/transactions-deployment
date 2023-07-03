@@ -8,6 +8,7 @@ metadata:
   labels:
     io.kompose.service: transactions-sync-data
   name: transactions-sync-data
+  namespace: transactions
 spec:
   ports:
     - name: "8081"

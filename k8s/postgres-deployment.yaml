@@ -8,6 +8,7 @@ metadata:
   labels:
     io.kompose.service: postgres
   name: postgres
+  namespace: transactions
 spec:
   replicas: 1
   selector:
@@ -29,12 +30,14 @@ spec:
         - image: postgres:13.4-alpine
           name: postgres
           resources: {}
+          securityContext:
+            privileged: true
           volumeMounts:
             - mountPath: /var/lib/postgresql/data
               name: postgres-data-keycloak
           env:
           - name: POSTGRES_DB
-            value: keycloak
+            value: keycloak_dev
           - name: POSTGRES_USER
             valueFrom:
               secretKeyRef:

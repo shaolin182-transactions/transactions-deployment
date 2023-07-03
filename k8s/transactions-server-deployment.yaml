@@ -8,6 +8,7 @@ metadata:
   labels:
     io.kompose.service: transactions-server
   name: transactions-server
+  namespace: transactions
 spec:
   replicas: 1
   selector:

@@ -8,6 +8,7 @@ metadata:
   labels:
     io.kompose.service: transactions-ihm-angular
   name: transactions-ihm-angular
+  namespace: transactions
 spec:
   replicas: 1
   selector:
@@ -25,10 +26,19 @@ spec:
         io.kompose.service: transactions-ihm-angular
     spec:
       containers:
-        - image: jugirard/transactions-ihm-angular:0.1.5
+        - image: jugirard/transactions-ihm-angular:0.1.5.6
           name: transactions-ihm-angular
           ports:
             - containerPort: 80
           resources: {}
+          volumeMounts:
+            - name: config-volume
+              mountPath: /usr/share/nginx/html/assets/environments/
       restartPolicy: Always
+      volumes:
+      - name: config-volume
+        configMap:
+          # Provide the name of the ConfigMap containing the files you want
+          # to add to the container
+          name: transactions-ihm-angular-config-map
 status: {}

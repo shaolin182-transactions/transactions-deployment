@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: transactions-ihm-angular-ingress
+  namespace: transactions
+#  annotations:
+#    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  ingressClassName: nginx
+  rules:
+#    - host: "transactions.127-0-0-1.nip.io"
+    - http:
+        paths:
+        - pathType: Prefix
+          path: /
+          backend:
+            service:
+              name: transactions-ihm-angular
+              port:
+                number: 4200

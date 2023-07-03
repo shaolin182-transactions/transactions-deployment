@@ -7,7 +7,8 @@ metadata:
   creationTimestamp: null
   labels:
     io.kompose.service: mongo
-  name: mongo
+  name: transactions-mongo-db
+  namespace: transactions
 spec:
   ports:
     - name: "27017"
