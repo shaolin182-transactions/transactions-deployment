@@ -2,8 +2,8 @@
   "production": true,
   "transactionsUrl": "http://transactions.127-0-0-1.nip.io/transactions",
   "transactionsUrlGet": "http://transactions.127-0-0-1.nip.io/transactions",
-  "keyCloakUrl": "http://keycloak.127-0-0-1.nip.io/auth/realms/transactions",
-  "discoveryUrl": "http://keycloak.127-0-0-1.nip.io/auth/realms/transactions/.well-known/openid-configuration",
+  "keyCloakUrl": "http://keycloak.127-0-0-1.nip.io/realms/transactions",
+  "discoveryUrl": "http://keycloak.127-0-0-1.nip.io/realms/transactions/.well-known/openid-configuration",
   "categoriesUrl": "assets/categories.json",
   "bankAccountUrl": "assets/bankAccount.json",
   "redirectUri": "http://localhost"

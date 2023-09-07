@@ -10,7 +10,7 @@ spec:
     - ReadWriteOnce
   claimRef:
     name: postgres-data-keycloak
-    namespace: transactions
+    namespace: keycloak
   capacity:
     storage: 100Mi
   local:

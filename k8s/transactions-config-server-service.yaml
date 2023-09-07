@@ -15,6 +15,6 @@ spec:
       port: 8888
       targetPort: 8888
   selector:
-    io.kompose.service: transactions-config-server
+    app: transactions-config-server
 status:
   loadBalancer: {}

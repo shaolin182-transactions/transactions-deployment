@@ -20,13 +20,16 @@ Several configuration can exists depending on technologies
 # Handle database dumps
 
 ## Dump database
+```shell
+mongorestore --db=transactions --collection=transaction dump/transaction.bson
+```
 
 ## Restore database
 
 Copy last dump into pod
 
 ```shell
-kubectl cp dump/20230616/ transactions/mongo-5bc55dc5f9-gbndx:/dump
+kubectl cp dump/20230616/ kubtransactions/mongo-5bc55dc5f9-gbndx:/dump
 ```
 
 From inside pod
