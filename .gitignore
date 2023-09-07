@@ -7,3 +7,11 @@
 env
 
 dump
+/helm/keycloak/values-secrets.yaml
+/db/transactions-app/
+/kibana/export.ndjson
+/kibana/export (1).ndjson
+/keycloak/realm-export (4).json
+/keycloak/transactions-api.json
+/keycloak/transactions-client.json
+/keycloak/transactions-client (2).json
