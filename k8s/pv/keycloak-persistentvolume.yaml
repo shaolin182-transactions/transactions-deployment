@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-keycloak-database
+  labels:
+    type: local
+spec:
+  storageClassName: local-storage
+  accessModes:
+    - ReadWriteOnce
+  claimRef:
+    name: postgres-data-keycloak
+    namespace: keycloak
+  capacity:
+    storage: 100Mi
+  local:
+    path: /mnt/k8s/data/keycloak
+  persistentVolumeReclaimPolicy: Retain
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: storage
+              operator: In
+              values:
+                - local
