@@ -36,3 +36,19 @@ From inside pod
 ```shell
 mongorestore --db=transactions --collection=transaction dump/transaction.bson
 ```
+# Docker compose
+```shell
+CONFIG_PRIVATEKEY=$(cat ./env/id_rsa) docker compose -f docker-compose-local.yml --env-file ./env/.env.dev up -d
+```
+
+# Ansible Configuration
+
+## Run playbook
+
+```shell
+# Install
+ansible-playbook transactions-deploy-playbook.yml -i inventory
+
+# Uninstall
+ansible-playbook transactions-undeploy-playbook.yml -i inventory
+```

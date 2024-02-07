@@ -1,0 +1,11 @@
+- name: Uninstall Keycloak
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: undeploy_keycloak_helm
+
+- name: Uninstall Transactions App
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: undeploy_helm

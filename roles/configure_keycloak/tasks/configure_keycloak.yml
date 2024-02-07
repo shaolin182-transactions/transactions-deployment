@@ -1,0 +1,93 @@
+- name: Create Keycloak realm
+  community.general.keycloak_realm:
+    auth_client_id: admin-cli
+    auth_keycloak_url: "{{ keycloak.url }}"
+    auth_realm: master
+    auth_username: "{{ keycloak.admin_user }}"
+    auth_password: "{{ keycloak.admin_password }}"
+    id: "{{ keycloak.realm_name }}"
+    realm: "{{ keycloak.realm_name }}"
+    state: present
+    enabled: true
+
+- name: Create a Keycloak client_scopes
+  community.general.keycloak_clientscope:
+    name: reader
+    protocol: openid-connect
+    realm: "{{ keycloak.realm_name }}"
+    state: present
+    auth_client_id: admin-cli
+    auth_keycloak_url: "{{ keycloak.url }}"
+    auth_realm: master
+    auth_username: "{{ keycloak.admin_user }}"
+    auth_password: "{{ keycloak.admin_password }}"
+
+- name: Create Keycloak client
+  community.general.keycloak_client:
+    auth_keycloak_url: "{{ keycloak.url }}"
+    auth_username: "{{ keycloak.admin_user }}"
+    auth_password: "{{ keycloak.admin_password }}"
+    auth_realm: master
+    realm: "{{ keycloak.realm_name }}"
+    client_id: transactions-client
+    state: present
+    root_url: http://localhost/*
+    admin_url: http://localhost/*
+    redirect_uris:
+      - http://localhost/*
+    web_origins:
+      - http://localhost
+    standard_flow_enabled: true
+    default_client_scopes:
+      - reader
+      - profile
+      - address
+      - email
+      - microprofile-jwt
+      - offline_access
+      - phone
+      - roles
+      - web-origins
+
+- name: Create a realm role
+  community.general.keycloak_role:
+    name: transactions-reader
+    realm: "{{ keycloak.realm_name }}"
+    state: present
+    auth_client_id: admin-cli
+    auth_keycloak_url: "{{ keycloak.url }}"
+    auth_realm: master
+    auth_username: "{{ keycloak.admin_user }}"
+    auth_password: "{{ keycloak.admin_password }}"
+
+- name: Create a user
+  community.general.keycloak_user:
+    auth_realm: master
+    auth_keycloak_url: "{{ keycloak.url }}"
+    auth_username: "{{ keycloak.admin_user }}"
+    auth_password: "{{ keycloak.admin_password }}"
+    realm: "{{ keycloak.realm_name }}"
+    id: "{{ keycloak.user.login }}"
+    username: "{{ keycloak.user.login }}"
+    firstName: "{{ keycloak.user.firstname }}"
+    lastName: "{{ keycloak.user.lastname }}"
+    email: "{{ keycloak.user.email }}"
+    enabled: true
+    emailVerified: false
+    credentials:
+      - type: password
+        value: "{{ keycloak.user.password }}"
+        temporary: false
+    state: present
+
+- name: Map a client role to a user, authentication with credentials
+  community.general.keycloak_user_rolemapping:
+    realm: "{{ keycloak.realm_name }}"
+    auth_keycloak_url: "{{ keycloak.url }}"
+    auth_realm: master
+    auth_username: "{{ keycloak.admin_user }}"
+    auth_password: "{{ keycloak.admin_password }}"
+    state: present
+    target_username: "{{ keycloak.user.login }}"
+    roles:
+      - name: "transactions-reader"

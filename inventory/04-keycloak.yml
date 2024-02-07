@@ -1,0 +1,24 @@
+k8s:
+  vars:
+    # All variables related to keycloak instance
+    keycloak:
+      realm_name: "transactions"
+      admin_user: "admin"
+      admin_password: "password"
+      url: "http://keycloak.127-0-0-1.nip.io"
+
+      user:
+        login: jugirard
+        firstname: Julien
+        lastname: Girard
+        email: girard.julien@gmail.com
+        password: password
+
+      release_name: keycloak
+      namespace: keycloak
+
+      helm_repo:
+        name: bitnami
+        url: https://charts.bitnami.com/bitnami
+        chart: bitnami/keycloak
+        version: 15.1.7

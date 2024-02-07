@@ -1,0 +1,27 @@
+- name: Add Helm Repo
+  kubernetes.core.helm_repository:
+    repo_name: "{{ es.helm_repo.name }}"
+    repo_url: "{{ es.helm_repo.url }}"
+
+- name: Deploy Elasticsearch
+  kubernetes.core.helm:
+    release_name: "{{ es.release_name }}"
+    release_namespace: "{{ es.namespace }}"
+    chart_ref: "{{ es.helm_repo.chart }}"
+    chart_version: "{{ es.helm_repo.version }}"
+    host: "{{ k8s_api }}"
+    state: present
+
+- name: Deploy Kibana
+  kubernetes.core.helm:
+    release_name: "{{ kibana.release_name }}"
+    release_namespace: "{{ kibana.namespace }}"
+    chart_ref: "{{ kibana.helm_repo.chart }}"
+    chart_version: "{{ kibana.helm_repo.version }}"
+    host: "{{ k8s_api }}"
+    state: present
+    values: "{{ lookup('file', 'inventory/kibana-helm-values.yml') | from_yaml }}"
+#    values: "{{ kibana.values }}"
+
+
+

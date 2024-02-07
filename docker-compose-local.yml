@@ -3,16 +3,16 @@ services:
 
   transactions-config-server:
     container_name: transactions-config-server
-    image: jugirard/transactions-config-server:latest
+    image: jugirard/transactions-config-server:v1.2.4.2
     ports:
       - "8888:8888"
     environment:
-      - CONFIG_USERNAME
-      - CONFIG_PASSWORD
+      - CONFIG_PASSPHRASE
+      - CONFIG_PRIVATEKEY
 
   mongo:
     container_name: transactions-mongo-db
-    image: mongo:4.2.6
+    image: mongo:6.0.7
     ports:
       - "27017:27017"
 

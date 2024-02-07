@@ -1,0 +1,9 @@
+# Import Kibana data
+- name: Import Saved objects into Kibana
+  ansible.builtin.uri:
+    url: "http://{{ kibana.hostname }}/api/kibana/dashboards/import"
+    method: POST
+    body: "{{ lookup('ansible.builtin.file','kibana-dashboard.json') }}"
+    body_format: json
+    headers:
+      kbn-xsrf: "reporting"

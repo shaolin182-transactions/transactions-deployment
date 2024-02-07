@@ -1,0 +1,17 @@
+- name: Install Keycloak
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: deploy_keycloak_helm
+
+- name: Configure Keycloak
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: configure_keycloak
+
+- name: Transactions Deployment
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: deploy_helm
