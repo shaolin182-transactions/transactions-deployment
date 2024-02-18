@@ -47,8 +47,8 @@ CONFIG_PRIVATEKEY=$(cat ./env/id_rsa) docker compose -f docker-compose-local.yml
 
 ```shell
 # Install
-ansible-playbook transactions-deploy-playbook.yml -i inventory
+ansible-playbook transactions-deploy-playbook.yml -i inventory --ask-vault-pass
 
 # Uninstall
-ansible-playbook transactions-undeploy-playbook.yml -i inventory
+ansible-playbook transactions-undeploy-playbook.yml -i inventory --ask-vault-pass
 ```

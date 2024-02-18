@@ -20,8 +20,7 @@
     chart_version: "{{ kibana.helm_repo.version }}"
     host: "{{ k8s_api }}"
     state: present
-    values: "{{ lookup('file', 'inventory/kibana-helm-values.yml') | from_yaml }}"
-#    values: "{{ kibana.values }}"
+    values: "{{ kibana.chart_values }}"
 
 
 

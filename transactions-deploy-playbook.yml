@@ -4,6 +4,12 @@
     - ansible.builtin.include_role:
         name: deploy_keycloak_helm
 
+- name: Install Elastic Search & Kibana
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: deploy_es
+
 - name: Configure Keycloak
   hosts: k8s
   tasks:
@@ -14,4 +20,4 @@
   hosts: k8s
   tasks:
     - ansible.builtin.include_role:
-        name: deploy_helm
+        name: deploy_transactions

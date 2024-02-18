@@ -11,7 +11,7 @@
     chart_version: "{{ keycloak.helm_repo.version }}"
     host: "{{ k8s_api }}"
     state: present
-    values: "{{ lookup('file', 'inventory/keycloak-helm-values.yml') | from_yaml }}"
+    values: "{{ keycloak.chart_values }}"
     create_namespace: true
 
 - name: Wait till pods are running
