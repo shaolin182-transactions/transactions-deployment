@@ -1,0 +1,4 @@
+- name: Deploy Keycloak
+  ansible.builtin.include_tasks: undeploy_transactions.yml
+
+

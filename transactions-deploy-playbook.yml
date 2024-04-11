@@ -2,13 +2,13 @@
   hosts: k8s
   tasks:
     - ansible.builtin.include_role:
-        name: deploy_keycloak_helm
+        name: deploy_keycloak
 
 - name: Install Elastic Search & Kibana
   hosts: k8s
   tasks:
     - ansible.builtin.include_role:
-        name: deploy_es
+        name: deploy_elk
 
 - name: Configure Keycloak
   hosts: k8s

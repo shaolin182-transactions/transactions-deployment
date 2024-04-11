@@ -1,11 +1,18 @@
+- name: Add Helm Repo
+  kubernetes.core.helm_repository:
+    repo_name: "{{ transactions.helm_repo.name }}"
+    repo_url: "{{ transactions.helm_repo.url }}"
+
 - name: Deploy Transactions App
   kubernetes.core.helm:
-    release_name: "transactions-ansible-test"
-    release_namespace: "transactions-ansible-test"
-    chart_ref: /media/julien/RAID/Dev/Projet/Transactions/transactions-helm-chart/transactions-helm-chart-0.1.0.tgz
+    release_name: "{{ transactions.helm_release_name }}"
+    release_namespace: "{{ transactions.helm_release_name }}"
+    chart_ref: "{{ transactions.chart_ref }}"
+    chart_version: "{{ transactions.chart_version }}"
     create_namespace: true
-    host: https://127.0.0.1:38697
+    host: "{{ k8s_api }}"
     state: present
+    values: "{{ transactions.chart_values }}"
 
 
 

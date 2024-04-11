@@ -12,6 +12,14 @@
     host: "{{ k8s_api }}"
     state: present
 
+- name: Wait till pods are running
+  kubernetes.core.k8s_info:
+    kind: Pod
+    wait: yes
+    namespace: "{{ es.namespace }}"
+    wait_sleep: 10
+    wait_timeout: 360
+
 - name: Deploy Kibana
   kubernetes.core.helm:
     release_name: "{{ kibana.release_name }}"
@@ -21,6 +29,14 @@
     host: "{{ k8s_api }}"
     state: present
     values: "{{ kibana.chart_values }}"
+- name: Wait till pods are running
+  kubernetes.core.k8s_info:
+    kind: Pod
+    wait: yes
+    namespace: "{{ kibana.namespace }}"
+    wait_sleep: 10
+    wait_timeout: 360
+
 
 
 
