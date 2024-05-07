@@ -3,19 +3,7 @@
 ![](https://github.com/shaolin182/transactions-java/workflows/integration-test/badge.svg)
 
 Aim of this project is to deploy transaction app
-Several configuration can exists depending on technologies
-
-# KeyCloak Configuration
-
-- Create 'transactions' realm
-- Import clients configurations
-  - ./keycloak/transactions-api.json
-  - ./keycloak/transactions-client.json
-- Create client scope 'reader' and 'writer' and associate it to client configuration
-- Create a role 'transaction-reader'
-- Create a user 
-  - set its password
-  - associate it to role 'transaction-reader'
+Several configuration can exist depending on technologies
 
 # Handle database dumps
 
