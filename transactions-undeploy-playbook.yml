@@ -1,0 +1,17 @@
+- name: Uninstall Transactions App
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: undeploy_transactions
+
+- name: Uninstall Elastic Search And Kibana
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: undeploy_elk
+
+- name: Uninstall Keycloak
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: undeploy_keycloak

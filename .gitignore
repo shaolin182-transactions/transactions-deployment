@@ -2,16 +2,17 @@
 .idea
 *.iml
 
-**/secrets
+../dump/k8s/secrets
 
-env
+../dump/docker/env
 
+/db
 dump
-/helm/keycloak/values-secrets.yaml
+/dump/helm/keycloak/values-secrets.yaml
 /db/transactions-app/
-/kibana/export.ndjson
-/kibana/export (1).ndjson
-/keycloak/realm-export (4).json
-/keycloak/transactions-api.json
-/keycloak/transactions-client.json
-/keycloak/transactions-client (2).json
+/dump/kibana/export.ndjson
+/dump/kibana/export (1).ndjson
+/dump/keycloak/realm-export (4).json
+/dump/keycloak/transactions-api.json
+/dump/keycloak/transactions-client.json
+/dump/keycloak/transactions-client (2).json

@@ -1,0 +1,3 @@
+- name: Configure Keycloak
+  ansible.builtin.include_tasks: configure_keycloak.yml
+

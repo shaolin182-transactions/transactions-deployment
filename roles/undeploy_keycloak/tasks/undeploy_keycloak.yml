@@ -1,0 +1,21 @@
+# TODO Backup data/configuration
+
+- name: Undeploy Keycloak
+  kubernetes.core.helm:
+    release_name: "{{ keycloak.release_name }}"
+    release_namespace: "{{ keycloak.namespace }}"
+    chart_ref: "{{ keycloak.helm_repo.chart }}"
+    chart_version: "{{ keycloak.helm_repo.version }}"
+    host: "{{ k8s_api }}"
+    state: absent
+
+- name: Remove Bitnami Helm Repo
+  kubernetes.core.helm_repository:
+    repo_name: "{{ keycloak.helm_repo.name }}"
+    repo_state: absent
+
+- name: Delete keycloak namespace
+  kubernetes.core.k8s:
+    kind: namespace
+    name: "{{ keycloak.namespace }}"
+    state: absent

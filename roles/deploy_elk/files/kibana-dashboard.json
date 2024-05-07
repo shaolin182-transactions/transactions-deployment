@@ -1,0 +1,1973 @@
+{
+  "version": "8.8.2",
+  "objects": [
+    {
+      "id": "1d03e450-057c-11eb-8008-d5f42e5f5722",
+      "type": "dashboard",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.7.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzE2LDExXQ==",
+      "attributes": {
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "optionsJSON": "{\"useMargins\":true,\"hidePanelTitles\":false}",
+        "panelsJSON": "[{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":60,\"i\":\"19756466-7017-4903-9cf6-137a46326d0a\"},\"panelIndex\":\"19756466-7017-4903-9cf6-137a46326d0a\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_19756466-7017-4903-9cf6-137a46326d0a\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":30,\"i\":\"97e247ed-ca6b-4a6c-a012-963f20efc829\"},\"panelIndex\":\"97e247ed-ca6b-4a6c-a012-963f20efc829\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_97e247ed-ca6b-4a6c-a012-963f20efc829\"}]",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "timeFrom": "now-12y",
+        "timeRestore": true,
+        "timeTo": "now+1y/y",
+        "title": "Administration",
+        "version": 1
+      },
+      "references": [
+        {
+          "name": "19756466-7017-4903-9cf6-137a46326d0a:panel_19756466-7017-4903-9cf6-137a46326d0a",
+          "type": "visualization",
+          "id": "5b46cba0-fe70-11ea-9819-7fdf5ff8b5be"
+        },
+        {
+          "name": "97e247ed-ca6b-4a6c-a012-963f20efc829:panel_97e247ed-ca6b-4a6c-a012-963f20efc829",
+          "type": "visualization",
+          "id": "ab3fa2f0-fe73-11ea-9819-7fdf5ff8b5be"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "27540980-dd81-11ea-84ba-056872406ff0",
+      "type": "dashboard",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.7.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzI1LDExXQ==",
+      "attributes": {
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "panelsJSON": "[{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":13,\"h\":30,\"i\":\"b4950850-1c7e-46bf-8485-677b3760d62a\"},\"panelIndex\":\"b4950850-1c7e-46bf-8485-677b3760d62a\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_b4950850-1c7e-46bf-8485-677b3760d62a\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":13,\"y\":0,\"w\":35,\"h\":15,\"i\":\"5e9852a5-9d0b-4ed3-9d43-398abcea5dbf\"},\"panelIndex\":\"5e9852a5-9d0b-4ed3-9d43-398abcea5dbf\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_5e9852a5-9d0b-4ed3-9d43-398abcea5dbf\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":13,\"y\":15,\"w\":35,\"h\":15,\"i\":\"0ac2d3c8-5317-4d6f-a6c6-ed6894942f34\"},\"panelIndex\":\"0ac2d3c8-5317-4d6f-a6c6-ed6894942f34\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_0ac2d3c8-5317-4d6f-a6c6-ed6894942f34\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":30,\"w\":48,\"h\":26,\"i\":\"cc37bf8f-e7f9-4780-8b2e-3455df6cbaa5\"},\"panelIndex\":\"cc37bf8f-e7f9-4780-8b2e-3455df6cbaa5\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_cc37bf8f-e7f9-4780-8b2e-3455df6cbaa5\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":56,\"w\":48,\"h\":30,\"i\":\"7b0b03d3-d0aa-4f54-8d0a-c5fdeb892a8b\"},\"panelIndex\":\"7b0b03d3-d0aa-4f54-8d0a-c5fdeb892a8b\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_7b0b03d3-d0aa-4f54-8d0a-c5fdeb892a8b\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":86,\"w\":48,\"h\":24,\"i\":\"52bc13ba-8fdc-4f23-8a42-adb5d6483096\"},\"panelIndex\":\"52bc13ba-8fdc-4f23-8a42-adb5d6483096\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_52bc13ba-8fdc-4f23-8a42-adb5d6483096\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":110,\"w\":48,\"h\":20,\"i\":\"ca09910c-afbc-4a01-98b0-64ec4f1b8cd1\"},\"panelIndex\":\"ca09910c-afbc-4a01-98b0-64ec4f1b8cd1\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_ca09910c-afbc-4a01-98b0-64ec4f1b8cd1\"}]",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "timeFrom": "2010-12-31T20:05:19.702Z",
+        "timeRestore": true,
+        "timeTo": "now+1M",
+        "title": "Détails",
+        "version": 1
+      },
+      "references": [
+        {
+          "name": "b4950850-1c7e-46bf-8485-677b3760d62a:panel_b4950850-1c7e-46bf-8485-677b3760d62a",
+          "type": "visualization",
+          "id": "1fd9de70-fcba-11ea-a867-ad375effd9a5"
+        },
+        {
+          "name": "5e9852a5-9d0b-4ed3-9d43-398abcea5dbf:panel_5e9852a5-9d0b-4ed3-9d43-398abcea5dbf",
+          "type": "visualization",
+          "id": "b0d1ffc0-ff3a-11ea-a689-5f877b161da6"
+        },
+        {
+          "name": "0ac2d3c8-5317-4d6f-a6c6-ed6894942f34:panel_0ac2d3c8-5317-4d6f-a6c6-ed6894942f34",
+          "type": "visualization",
+          "id": "887b7d80-fdaf-11ea-8d59-870ba8422ef6"
+        },
+        {
+          "name": "cc37bf8f-e7f9-4780-8b2e-3455df6cbaa5:panel_cc37bf8f-e7f9-4780-8b2e-3455df6cbaa5",
+          "type": "visualization",
+          "id": "4ede65e0-ff3c-11ea-a689-5f877b161da6"
+        },
+        {
+          "name": "7b0b03d3-d0aa-4f54-8d0a-c5fdeb892a8b:panel_7b0b03d3-d0aa-4f54-8d0a-c5fdeb892a8b",
+          "type": "visualization",
+          "id": "fc5af5f0-5836-11eb-a5f3-8dc552e3dbe3"
+        },
+        {
+          "name": "52bc13ba-8fdc-4f23-8a42-adb5d6483096:panel_52bc13ba-8fdc-4f23-8a42-adb5d6483096",
+          "type": "visualization",
+          "id": "a8aa3940-37d2-11eb-8ffb-7740822ef9ce"
+        },
+        {
+          "name": "ca09910c-afbc-4a01-98b0-64ec4f1b8cd1:panel_ca09910c-afbc-4a01-98b0-64ec4f1b8cd1",
+          "type": "visualization",
+          "id": "f567e7e0-201d-11eb-96b8-ab1614090db5"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "0048f5f0-3bd0-11eb-a127-e11230f0abd7",
+      "type": "dashboard",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.7.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzMzLDExXQ==",
+      "attributes": {
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "panelsJSON": "[{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":15,\"i\":\"a12445d5-4b1b-4bcc-93c6-e5afe5bcca6d\"},\"panelIndex\":\"a12445d5-4b1b-4bcc-93c6-e5afe5bcca6d\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_a12445d5-4b1b-4bcc-93c6-e5afe5bcca6d\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":34,\"y\":0,\"w\":14,\"h\":15,\"i\":\"f8731f25-31a0-41ee-a2d8-eea73bc02519\"},\"panelIndex\":\"f8731f25-31a0-41ee-a2d8-eea73bc02519\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f8731f25-31a0-41ee-a2d8-eea73bc02519\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":10,\"y\":0,\"w\":24,\"h\":15,\"i\":\"6de8fe62-6266-4ea4-ba2c-652c3242620c\"},\"panelIndex\":\"6de8fe62-6266-4ea4-ba2c-652c3242620c\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_6de8fe62-6266-4ea4-ba2c-652c3242620c\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":37,\"y\":15,\"w\":11,\"h\":15,\"i\":\"44a5529d-e542-4f99-a61f-0be920d5ae7a\"},\"panelIndex\":\"44a5529d-e542-4f99-a61f-0be920d5ae7a\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_44a5529d-e542-4f99-a61f-0be920d5ae7a\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":15,\"w\":37,\"h\":15,\"i\":\"bf16a2a9-0a02-418e-bed9-3e1801656951\"},\"panelIndex\":\"bf16a2a9-0a02-418e-bed9-3e1801656951\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_bf16a2a9-0a02-418e-bed9-3e1801656951\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":30,\"w\":24,\"h\":18,\"i\":\"96ac68bd-dc56-4f58-b1a7-a09565d50b20\"},\"panelIndex\":\"96ac68bd-dc56-4f58-b1a7-a09565d50b20\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_96ac68bd-dc56-4f58-b1a7-a09565d50b20\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":30,\"w\":24,\"h\":18,\"i\":\"6ecc64fc-f4b6-448a-9111-339de09e9fe2\"},\"panelIndex\":\"6ecc64fc-f4b6-448a-9111-339de09e9fe2\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_6ecc64fc-f4b6-448a-9111-339de09e9fe2\"}]",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "timeFrom": "2010-12-31T20:05:19.702Z",
+        "timeRestore": true,
+        "timeTo": "now+1M",
+        "title": "Epargne",
+        "version": 1
+      },
+      "references": [
+        {
+          "name": "a12445d5-4b1b-4bcc-93c6-e5afe5bcca6d:panel_a12445d5-4b1b-4bcc-93c6-e5afe5bcca6d",
+          "type": "visualization",
+          "id": "e41b2e10-e62f-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "f8731f25-31a0-41ee-a2d8-eea73bc02519:panel_f8731f25-31a0-41ee-a2d8-eea73bc02519",
+          "type": "visualization",
+          "id": "e9cb0e80-3bcf-11eb-a127-e11230f0abd7"
+        },
+        {
+          "name": "6de8fe62-6266-4ea4-ba2c-652c3242620c:panel_6de8fe62-6266-4ea4-ba2c-652c3242620c",
+          "type": "visualization",
+          "id": "a94b1860-3b9c-11eb-a127-e11230f0abd7"
+        },
+        {
+          "name": "44a5529d-e542-4f99-a61f-0be920d5ae7a:panel_44a5529d-e542-4f99-a61f-0be920d5ae7a",
+          "type": "visualization",
+          "id": "9a8ab4f0-3bd0-11eb-a127-e11230f0abd7"
+        },
+        {
+          "name": "bf16a2a9-0a02-418e-bed9-3e1801656951:panel_bf16a2a9-0a02-418e-bed9-3e1801656951",
+          "type": "visualization",
+          "id": "f27bbcd0-3b9a-11eb-a127-e11230f0abd7"
+        },
+        {
+          "name": "96ac68bd-dc56-4f58-b1a7-a09565d50b20:panel_96ac68bd-dc56-4f58-b1a7-a09565d50b20",
+          "type": "visualization",
+          "id": "bcda5640-3b9a-11eb-a127-e11230f0abd7"
+        },
+        {
+          "name": "6ecc64fc-f4b6-448a-9111-339de09e9fe2:panel_6ecc64fc-f4b6-448a-9111-339de09e9fe2",
+          "type": "visualization",
+          "id": "c9aa84d0-3b9a-11eb-a127-e11230f0abd7"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "b8047120-40b1-11eb-bb0c-db4f1254ee28",
+      "type": "dashboard",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.7.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzM5LDExXQ==",
+      "attributes": {
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "panelsJSON": "[{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"1f40500f-fbfd-43bc-ac64-9634151124ec\",\"w\":9,\"x\":0,\"y\":0},\"panelIndex\":\"1f40500f-fbfd-43bc-ac64-9634151124ec\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_1f40500f-fbfd-43bc-ac64-9634151124ec\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"4cabfee1-060f-4ff7-ae08-785f300f3a72\",\"w\":8,\"x\":40,\"y\":0},\"panelIndex\":\"4cabfee1-060f-4ff7-ae08-785f300f3a72\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_4cabfee1-060f-4ff7-ae08-785f300f3a72\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"82466484-2677-4f04-b2d5-53630ee5c369\",\"w\":31,\"x\":9,\"y\":0},\"panelIndex\":\"82466484-2677-4f04-b2d5-53630ee5c369\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_82466484-2677-4f04-b2d5-53630ee5c369\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"ade81907-6643-4bbd-8b3b-433e82cc03eb\",\"w\":24,\"x\":0,\"y\":15},\"panelIndex\":\"ade81907-6643-4bbd-8b3b-433e82cc03eb\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_ade81907-6643-4bbd-8b3b-433e82cc03eb\"},{\"version\":\"7.8.1\",\"type\":\"search\",\"gridData\":{\"h\":24,\"i\":\"9de5471d-b4b6-40c8-91ea-9a394d092092\",\"w\":48,\"x\":0,\"y\":30},\"panelIndex\":\"9de5471d-b4b6-40c8-91ea-9a394d092092\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_9de5471d-b4b6-40c8-91ea-9a394d092092\"}]",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "timeFrom": "2010-12-31T20:05:19.702Z",
+        "timeRestore": true,
+        "timeTo": "now+1M",
+        "title": "PEE",
+        "version": 1
+      },
+      "references": [
+        {
+          "name": "1f40500f-fbfd-43bc-ac64-9634151124ec:panel_1f40500f-fbfd-43bc-ac64-9634151124ec",
+          "type": "visualization",
+          "id": "fe9a0450-e62f-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "4cabfee1-060f-4ff7-ae08-785f300f3a72:panel_4cabfee1-060f-4ff7-ae08-785f300f3a72",
+          "type": "visualization",
+          "id": "179f3170-40b1-11eb-bb0c-db4f1254ee28"
+        },
+        {
+          "name": "82466484-2677-4f04-b2d5-53630ee5c369:panel_82466484-2677-4f04-b2d5-53630ee5c369",
+          "type": "visualization",
+          "id": "c6ce5ec0-40af-11eb-bb0c-db4f1254ee28"
+        },
+        {
+          "name": "ade81907-6643-4bbd-8b3b-433e82cc03eb:panel_ade81907-6643-4bbd-8b3b-433e82cc03eb",
+          "type": "visualization",
+          "id": "022ddff0-411d-11eb-b203-c1261b108ffd"
+        },
+        {
+          "name": "9de5471d-b4b6-40c8-91ea-9a394d092092:panel_9de5471d-b4b6-40c8-91ea-9a394d092092",
+          "type": "search",
+          "id": "56b5a390-4083-11eb-bb0c-db4f1254ee28"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "a18d99e0-4146-11eb-b203-c1261b108ffd",
+      "type": "dashboard",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.7.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzQ3LDExXQ==",
+      "attributes": {
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "panelsJSON": "[{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":15,\"i\":\"ebbdb7e3-1b75-4dd4-a476-f65c11e8515d\"},\"panelIndex\":\"ebbdb7e3-1b75-4dd4-a476-f65c11e8515d\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_ebbdb7e3-1b75-4dd4-a476-f65c11e8515d\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":0,\"w\":24,\"h\":15,\"i\":\"7252dfad-e83b-42c6-bd75-0504aa87e974\"},\"panelIndex\":\"7252dfad-e83b-42c6-bd75-0504aa87e974\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_7252dfad-e83b-42c6-bd75-0504aa87e974\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":15,\"w\":24,\"h\":15,\"i\":\"9405b5ac-d7a4-45ef-a0fc-3ba8b818d5d0\"},\"panelIndex\":\"9405b5ac-d7a4-45ef-a0fc-3ba8b818d5d0\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_9405b5ac-d7a4-45ef-a0fc-3ba8b818d5d0\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":15,\"w\":24,\"h\":15,\"i\":\"f2c9039d-c0a9-4fe8-88b5-01367b3316c8\"},\"panelIndex\":\"f2c9039d-c0a9-4fe8-88b5-01367b3316c8\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f2c9039d-c0a9-4fe8-88b5-01367b3316c8\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":30,\"w\":24,\"h\":15,\"i\":\"448556b5-da1b-4d13-af39-c6065a6d1548\"},\"panelIndex\":\"448556b5-da1b-4d13-af39-c6065a6d1548\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_448556b5-da1b-4d13-af39-c6065a6d1548\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":30,\"w\":24,\"h\":15,\"i\":\"ddbf794e-3393-47a7-a7ef-2c5650913aeb\"},\"panelIndex\":\"ddbf794e-3393-47a7-a7ef-2c5650913aeb\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_ddbf794e-3393-47a7-a7ef-2c5650913aeb\"}]",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "timeFrom": "2010-12-31T20:05:19.702Z",
+        "timeRestore": true,
+        "timeTo": "now+1M",
+        "title": "Perso",
+        "version": 1
+      },
+      "references": [
+        {
+          "name": "ebbdb7e3-1b75-4dd4-a476-f65c11e8515d:panel_ebbdb7e3-1b75-4dd4-a476-f65c11e8515d",
+          "type": "visualization",
+          "id": "f6b04290-e62f-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "7252dfad-e83b-42c6-bd75-0504aa87e974:panel_7252dfad-e83b-42c6-bd75-0504aa87e974",
+          "type": "visualization",
+          "id": "ed272150-e632-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "9405b5ac-d7a4-45ef-a0fc-3ba8b818d5d0:panel_9405b5ac-d7a4-45ef-a0fc-3ba8b818d5d0",
+          "type": "visualization",
+          "id": "3ab89cf0-e633-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "f2c9039d-c0a9-4fe8-88b5-01367b3316c8:panel_f2c9039d-c0a9-4fe8-88b5-01367b3316c8",
+          "type": "visualization",
+          "id": "45d6fcd0-e633-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "448556b5-da1b-4d13-af39-c6065a6d1548:panel_448556b5-da1b-4d13-af39-c6065a6d1548",
+          "type": "visualization",
+          "id": "803803c0-e632-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "ddbf794e-3393-47a7-a7ef-2c5650913aeb:panel_ddbf794e-3393-47a7-a7ef-2c5650913aeb",
+          "type": "visualization",
+          "id": "eea00000-417e-11eb-b203-c1261b108ffd"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "11902910-af10-11eb-b224-970e3f041688",
+      "type": "dashboard",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.7.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzUyLDExXQ==",
+      "attributes": {
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "panelsJSON": "[{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":0,\"w\":26,\"h\":15,\"i\":\"58cfb053-5d59-4980-b1c2-2c9db8c57ebf\"},\"panelIndex\":\"58cfb053-5d59-4980-b1c2-2c9db8c57ebf\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_58cfb053-5d59-4980-b1c2-2c9db8c57ebf\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":15,\"w\":24,\"h\":15,\"i\":\"747ab496-6a85-4e0b-9901-09d423875f34\"},\"panelIndex\":\"747ab496-6a85-4e0b-9901-09d423875f34\",\"embeddableConfig\":{\"timeRange\":{\"from\":\"now-1y\",\"to\":\"now\"},\"enhancements\":{}},\"panelRefName\":\"panel_747ab496-6a85-4e0b-9901-09d423875f34\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":15,\"w\":24,\"h\":15,\"i\":\"3839ed29-3e4d-4050-86fd-acab7002ab32\"},\"panelIndex\":\"3839ed29-3e4d-4050-86fd-acab7002ab32\",\"embeddableConfig\":{\"timeRange\":{\"from\":\"now-1y\",\"to\":\"now\"},\"enhancements\":{}},\"panelRefName\":\"panel_3839ed29-3e4d-4050-86fd-acab7002ab32\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":24,\"y\":30,\"w\":24,\"h\":17,\"i\":\"add85f74-15d6-4ea9-9209-b46afe174109\"},\"panelIndex\":\"add85f74-15d6-4ea9-9209-b46afe174109\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_add85f74-15d6-4ea9-9209-b46afe174109\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"x\":0,\"y\":30,\"w\":24,\"h\":17,\"i\":\"eeb3fb6f-d175-46cc-be97-4b470cf59052\"},\"panelIndex\":\"eeb3fb6f-d175-46cc-be97-4b470cf59052\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_eeb3fb6f-d175-46cc-be97-4b470cf59052\"}]",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "timeFrom": "2010-12-31T20:05:19.702Z",
+        "timeRestore": true,
+        "timeTo": "now+1M",
+        "title": "Commun",
+        "version": 1
+      },
+      "references": [
+        {
+          "name": "58cfb053-5d59-4980-b1c2-2c9db8c57ebf:panel_58cfb053-5d59-4980-b1c2-2c9db8c57ebf",
+          "type": "visualization",
+          "id": "ec81c0f0-e62f-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "747ab496-6a85-4e0b-9901-09d423875f34:panel_747ab496-6a85-4e0b-9901-09d423875f34",
+          "type": "visualization",
+          "id": "d05de300-af15-11eb-b224-970e3f041688"
+        },
+        {
+          "name": "3839ed29-3e4d-4050-86fd-acab7002ab32:panel_3839ed29-3e4d-4050-86fd-acab7002ab32",
+          "type": "visualization",
+          "id": "2609e9d0-af15-11eb-b224-970e3f041688"
+        },
+        {
+          "name": "add85f74-15d6-4ea9-9209-b46afe174109:panel_add85f74-15d6-4ea9-9209-b46afe174109",
+          "type": "visualization",
+          "id": "d05de300-af15-11eb-b224-970e3f041688"
+        },
+        {
+          "name": "eeb3fb6f-d175-46cc-be97-4b470cf59052:panel_eeb3fb6f-d175-46cc-be97-4b470cf59052",
+          "type": "visualization",
+          "id": "2609e9d0-af15-11eb-b224-970e3f041688"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "2b4e1de0-d657-11ea-ba81-29a17fbe3999",
+      "type": "dashboard",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.7.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzY0LDExXQ==",
+      "attributes": {
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+        "panelsJSON": "[{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":14,\"i\":\"1a07cc71-4fcb-4598-80ae-e2ecbf29030b\",\"w\":12,\"x\":0,\"y\":0},\"panelIndex\":\"1a07cc71-4fcb-4598-80ae-e2ecbf29030b\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_1a07cc71-4fcb-4598-80ae-e2ecbf29030b\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":14,\"i\":\"80a639d0-2e66-4a6c-82e0-0ba0eb3dfebc\",\"w\":15,\"x\":12,\"y\":0},\"panelIndex\":\"80a639d0-2e66-4a6c-82e0-0ba0eb3dfebc\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_80a639d0-2e66-4a6c-82e0-0ba0eb3dfebc\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":14,\"i\":\"dd9c35af-4943-416a-a642-7916d5131e5e\",\"w\":21,\"x\":27,\"y\":0},\"panelIndex\":\"dd9c35af-4943-416a-a642-7916d5131e5e\",\"embeddableConfig\":{\"timeRange\":{\"from\":\"2019-12-31T23:00:00.000Z\",\"to\":\"2020-12-31T22:30:00.000Z\"},\"enhancements\":{}},\"panelRefName\":\"panel_dd9c35af-4943-416a-a642-7916d5131e5e\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"a01bf2bd-0ff5-4209-8a0e-8780415aed8d\",\"w\":25,\"x\":0,\"y\":14},\"panelIndex\":\"a01bf2bd-0ff5-4209-8a0e-8780415aed8d\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_a01bf2bd-0ff5-4209-8a0e-8780415aed8d\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"9a7d884d-b877-4951-b4b2-e437340f4fed\",\"w\":23,\"x\":25,\"y\":14},\"panelIndex\":\"9a7d884d-b877-4951-b4b2-e437340f4fed\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_9a7d884d-b877-4951-b4b2-e437340f4fed\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"cca4f8b8-7086-417f-9b3a-ffeb988bfc27\",\"w\":16,\"x\":0,\"y\":30},\"panelIndex\":\"cca4f8b8-7086-417f-9b3a-ffeb988bfc27\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_cca4f8b8-7086-417f-9b3a-ffeb988bfc27\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"fdf4793f-7ac3-447a-b701-03802f81c684\",\"w\":18,\"x\":16,\"y\":30},\"panelIndex\":\"fdf4793f-7ac3-447a-b701-03802f81c684\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_fdf4793f-7ac3-447a-b701-03802f81c684\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":15,\"i\":\"14b4823e-aa65-4bff-bd8c-e87090244818\",\"w\":14,\"x\":34,\"y\":30},\"panelIndex\":\"14b4823e-aa65-4bff-bd8c-e87090244818\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_14b4823e-aa65-4bff-bd8c-e87090244818\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":24,\"i\":\"18fe150a-9e38-482f-b7cc-44a16e905bda\",\"w\":25,\"x\":0,\"y\":45},\"panelIndex\":\"18fe150a-9e38-482f-b7cc-44a16e905bda\",\"embeddableConfig\":{\"timeRange\":{\"from\":\"now-6M\",\"to\":\"now\"},\"enhancements\":{}},\"panelRefName\":\"panel_18fe150a-9e38-482f-b7cc-44a16e905bda\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":24,\"i\":\"9ac660e5-d20a-43f0-95b3-5e89a6bef830\",\"w\":23,\"x\":25,\"y\":45},\"panelIndex\":\"9ac660e5-d20a-43f0-95b3-5e89a6bef830\",\"embeddableConfig\":{\"timeRange\":{\"from\":\"now-6M\",\"to\":\"now\"},\"enhancements\":{}},\"panelRefName\":\"panel_9ac660e5-d20a-43f0-95b3-5e89a6bef830\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":24,\"i\":\"ef1e2064-19a1-47b5-92fe-629ee0510184\",\"w\":25,\"x\":0,\"y\":69},\"panelIndex\":\"ef1e2064-19a1-47b5-92fe-629ee0510184\",\"embeddableConfig\":{\"vis\":{\"legendOpen\":false},\"enhancements\":{}},\"panelRefName\":\"panel_ef1e2064-19a1-47b5-92fe-629ee0510184\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":24,\"i\":\"e20c3b98-8624-46eb-ab1f-8d48ba371bd2\",\"w\":23,\"x\":25,\"y\":69},\"panelIndex\":\"e20c3b98-8624-46eb-ab1f-8d48ba371bd2\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_e20c3b98-8624-46eb-ab1f-8d48ba371bd2\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":16,\"i\":\"f4cd4f10-48af-4935-9f28-a9543b5f5c87\",\"w\":48,\"x\":0,\"y\":93},\"panelIndex\":\"f4cd4f10-48af-4935-9f28-a9543b5f5c87\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_f4cd4f10-48af-4935-9f28-a9543b5f5c87\"},{\"version\":\"7.8.1\",\"type\":\"visualization\",\"gridData\":{\"h\":7,\"i\":\"29795daa-bea7-4293-aba2-7aa3447bf3ee\",\"w\":48,\"x\":0,\"y\":109},\"panelIndex\":\"29795daa-bea7-4293-aba2-7aa3447bf3ee\",\"embeddableConfig\":{\"enhancements\":{}},\"panelRefName\":\"panel_29795daa-bea7-4293-aba2-7aa3447bf3ee\"}]",
+        "refreshInterval": {
+          "pause": true,
+          "value": 0
+        },
+        "timeFrom": "2010-12-31T20:05:19.702Z",
+        "timeRestore": true,
+        "timeTo": "now+1M",
+        "title": "General",
+        "version": 1
+      },
+      "references": [
+        {
+          "name": "1a07cc71-4fcb-4598-80ae-e2ecbf29030b:panel_1a07cc71-4fcb-4598-80ae-e2ecbf29030b",
+          "type": "visualization",
+          "id": "c4ca2f40-fce0-11ea-a785-79174f2a8edb"
+        },
+        {
+          "name": "80a639d0-2e66-4a6c-82e0-0ba0eb3dfebc:panel_80a639d0-2e66-4a6c-82e0-0ba0eb3dfebc",
+          "type": "visualization",
+          "id": "af9d5ee0-fc9e-11ea-a867-ad375effd9a5"
+        },
+        {
+          "name": "dd9c35af-4943-416a-a642-7916d5131e5e:panel_dd9c35af-4943-416a-a642-7916d5131e5e",
+          "type": "visualization",
+          "id": "9c3daae0-fdb0-11ea-8d59-870ba8422ef6"
+        },
+        {
+          "name": "a01bf2bd-0ff5-4209-8a0e-8780415aed8d:panel_a01bf2bd-0ff5-4209-8a0e-8780415aed8d",
+          "type": "visualization",
+          "id": "7d5a8590-fdaf-11ea-8d59-870ba8422ef6"
+        },
+        {
+          "name": "9a7d884d-b877-4951-b4b2-e437340f4fed:panel_9a7d884d-b877-4951-b4b2-e437340f4fed",
+          "type": "visualization",
+          "id": "336d1890-fea8-11ea-9819-7fdf5ff8b5be"
+        },
+        {
+          "name": "cca4f8b8-7086-417f-9b3a-ffeb988bfc27:panel_cca4f8b8-7086-417f-9b3a-ffeb988bfc27",
+          "type": "visualization",
+          "id": "892e1750-e630-11eb-9619-2b8b4fc90292"
+        },
+        {
+          "name": "fdf4793f-7ac3-447a-b701-03802f81c684:panel_fdf4793f-7ac3-447a-b701-03802f81c684",
+          "type": "visualization",
+          "id": "a73a2050-fdaf-11ea-8d59-870ba8422ef6"
+        },
+        {
+          "name": "14b4823e-aa65-4bff-bd8c-e87090244818:panel_14b4823e-aa65-4bff-bd8c-e87090244818",
+          "type": "visualization",
+          "id": "b9337490-fdb0-11ea-8d59-870ba8422ef6"
+        },
+        {
+          "name": "18fe150a-9e38-482f-b7cc-44a16e905bda:panel_18fe150a-9e38-482f-b7cc-44a16e905bda",
+          "type": "visualization",
+          "id": "f567e7e0-201d-11eb-96b8-ab1614090db5"
+        },
+        {
+          "name": "9ac660e5-d20a-43f0-95b3-5e89a6bef830:panel_9ac660e5-d20a-43f0-95b3-5e89a6bef830",
+          "type": "visualization",
+          "id": "a8aa3940-37d2-11eb-8ffb-7740822ef9ce"
+        },
+        {
+          "name": "ef1e2064-19a1-47b5-92fe-629ee0510184:panel_ef1e2064-19a1-47b5-92fe-629ee0510184",
+          "type": "visualization",
+          "id": "b0d1ffc0-ff3a-11ea-a689-5f877b161da6"
+        },
+        {
+          "name": "e20c3b98-8624-46eb-ab1f-8d48ba371bd2:panel_e20c3b98-8624-46eb-ab1f-8d48ba371bd2",
+          "type": "visualization",
+          "id": "d27fa560-37d3-11eb-8ffb-7740822ef9ce"
+        },
+        {
+          "name": "f4cd4f10-48af-4935-9f28-a9543b5f5c87:panel_f4cd4f10-48af-4935-9f28-a9543b5f5c87",
+          "type": "visualization",
+          "id": "2bf92e70-58ce-11eb-8512-b12ed7c1c8fd"
+        },
+        {
+          "name": "29795daa-bea7-4293-aba2-7aa3447bf3ee:panel_29795daa-bea7-4293-aba2-7aa3447bf3ee",
+          "type": "visualization",
+          "id": "f3539320-58ce-11eb-8512-b12ed7c1c8fd"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "5b46cba0-fe70-11ea-9819-7fdf5ff8b5be",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzE0LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Liste des catégories",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":2,\"direction\":\"asc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nb\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.id\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Id\"},\"schema\":\"bucket\"},{\"id\":\"5\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.type.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":true,\"missingBucketLabel\":\"-\",\"customLabel\":\"Type\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"asc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.label.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":100,\"percentageCol\":\"\",\"showMetricsAtAllLevels\":false,\"showPartialRows\":false,\"showTotal\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"totalFunc\":\"sum\",\"showToolbar\":true},\"title\":\"TR - Liste des catégories\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "ab3fa2f0-fe73-11ea-9819-7fdf5ff8b5be",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzE1LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Liste des comptes en banque",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":1,\"direction\":\"asc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"params\":{\"customLabel\":\"Nb\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"from.id\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Identifiant\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"from.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"significant_terms\",\"params\":{\"field\":\"from.label.keyword\",\"size\":50,\"customLabel\":\"Compte en banque\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":100,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"showToolbar\":true},\"title\":\"TR - Liste des comptes en banque\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "1fd9de70-fcba-11ea-a867-ad375effd9a5",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzE3LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total par compte en banque",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"desc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"from.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":30,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Type\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"from.label.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":30,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Compte en banque\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":30,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"showToolbar\":true},\"title\":\"TR - Total par compte en banque\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "b0d1ffc0-ff3a-11ea-a689-5f877b161da6",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzE5LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Coût par catégorie et par année",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"group\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Total\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Total\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Coût par catégorie et par année\"}"
+      },
+      "references": [
+        {
+          "id": "ae685c90-fea7-11ea-9819-7fdf5ff8b5be",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "887b7d80-fdaf-11ea-8d59-870ba8422ef6",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzIwLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Cumul par mois",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cumulative_sum\",\"params\":{\"metricAgg\":\"custom\",\"customMetric\":{\"id\":\"1-metric\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\"}}},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"now-12y\",\"to\":\"now+1y/y\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Cumul\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Cumulative Sum of Sum of costDecimal\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Cumul par mois\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "4ede65e0-ff3c-11ea-a689-5f877b161da6",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzIxLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Coût par mois et par catégorie",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"line\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costAbsDecimal\",\"customLabel\":\"Coût\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1y\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"group\"}],\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Coût\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Coût\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"interpolate\":\"linear\",\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"fittingFunction\":\"linear\",\"legendSize\":\"auto\"},\"title\":\"TR - Coût par mois et par catégorie\"}"
+      },
+      "references": [
+        {
+          "id": "ae685c90-fea7-11ea-9819-7fdf5ff8b5be",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "fc5af5f0-5836-11eb-a5f3-8dc552e3dbe3",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzIyLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR- Total par année et catégorie",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"asc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"enhanced-table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"bucket\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.label.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":100,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Libellé\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"splitcols\"}],\"params\":{\"perPage\":100,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"computedColumns\":[],\"computedColsPerSplitCol\":false,\"hideExportLinks\":false,\"csvExportWithTotal\":false,\"stripedRows\":false,\"addRowNumberColumn\":false,\"csvEncoding\":\"utf-8\",\"showFilterBar\":false,\"filterCaseSensitive\":false,\"filterBarHideable\":false,\"filterAsYouType\":false,\"filterTermsSeparately\":false,\"filterHighlightResults\":false,\"filterBarWidth\":\"25%\",\"hiddenColumns\":\"\"},\"title\":\"TR- Total par année et catégorie\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "a8aa3940-37d2-11eb-8ffb-7740822ef9ce",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzIzLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"not category.category.keyword : \\\"Revenu\\\" \",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Coût par type de catégorie  et par mois",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costAbsDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"now-12y/y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.type.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"group\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"filter\":true,\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false},\"labels\":{\"show\":true},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Total\"},\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"mode\":\"stacked\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\",\"circlesRadius\":1}],\"thresholdLine\":{\"color\":\"#E7664C\",\"show\":false,\"style\":\"full\",\"value\":10,\"width\":1},\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Total\"},\"type\":\"value\"}],\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Coût par type de catégorie  et par mois\"}"
+      },
+      "references": [
+        {
+          "id": "ae685c90-fea7-11ea-9819-7fdf5ff8b5be",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "f567e7e0-201d-11eb-96b8-ab1614090db5",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzI0LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"not category.category.keyword : \\\"Revenu\\\" \",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Coût par catégorie et par mois",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"group\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"filter\":true,\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false},\"labels\":{\"show\":true},\"legendPosition\":\"bottom\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Total\"},\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"mode\":\"stacked\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\",\"circlesRadius\":1}],\"thresholdLine\":{\"color\":\"#E7664C\",\"show\":false,\"style\":\"full\",\"value\":10,\"width\":1},\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Total\"},\"type\":\"value\"}],\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Coût par catégorie et par mois\"}"
+      },
+      "references": [
+        {
+          "id": "ae685c90-fea7-11ea-9819-7fdf5ff8b5be",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "e41b2e10-e62f-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzI2LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"from.category.keyword\",\"negate\":false,\"params\":{\"query\":\"Epargne\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"from.category.keyword\":\"Epargne\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total - Epargne",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"title\":\"TR - Total - Epargne\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "e9cb0e80-3bcf-11eb-a127-e11230f0abd7",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzI3LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"from.category: \\\"Epargne\\\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Epargne par année - Tableau",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"desc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"row\":true,\"showToolbar\":true},\"title\":\"TR - Epargne par année - Tableau\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "a94b1860-3b9c-11eb-a127-e11230f0abd7",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzI4LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"from.category: \\\"Epargne\\\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Epargne cumulée par année",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cumulative_sum\",\"params\":{\"metricAgg\":\"custom\",\"customMetric\":{\"id\":\"1-metric\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\"}}},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Total\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Cumulative Sum of Sum of costDecimal\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Epargne cumulée par année\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "9a8ab4f0-3bd0-11eb-a127-e11230f0abd7",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzI5LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"from.category: \\\"Epargne\\\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Epargne par mois - Tableau",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"desc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":50,\"showPartialRows\":false,\"showMetricsAtAllLevels\":true,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":true,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"row\":true,\"showToolbar\":true},\"title\":\"TR - Epargne par mois - Tableau\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "f27bbcd0-3b9a-11eb-a127-e11230f0abd7",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzMwLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"from.category: \\\"Epargne\\\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Epargne cumulée par mois",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cumulative_sum\",\"params\":{\"metricAgg\":\"custom\",\"customMetric\":{\"id\":\"1-metric\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\"}}},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Total\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Cumulative Sum of Sum of costDecimal\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Epargne cumulée par mois\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "bcda5640-3b9a-11eb-a127-e11230f0abd7",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzMxLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"from.category: \\\"Epargne\\\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Epargne par année",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Total\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Sum of costDecimal\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Epargne par année\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "c9aa84d0-3b9a-11eb-a127-e11230f0abd7",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzMyLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"from.label: \\\"Livret A\\\" or from.label : \\\"LDD\\\" or from.label :\\\"PEL\\\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Epargne par mois",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Total\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Total\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Epargne par mois\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "fe9a0450-e62f-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzM0LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"from.category.keyword\",\"negate\":false,\"params\":{\"query\":\"PEE\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"from.category.keyword\":\"PEE\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total - PEE",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":60,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"title\":\"TR - Total - PEE\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "179f3170-40b1-11eb-bb0c-db4f1254ee28",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzM2LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - PEE par année",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"desc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"showToolbar\":true},\"title\":\"TR - PEE par année\"}"
+      },
+      "references": [
+        {
+          "id": "56b5a390-4083-11eb-bb0c-db4f1254ee28",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "c6ce5ec0-40af-11eb-bb0c-db4f1254ee28",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzM3LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"from.category: \\\"PEE\\\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - PEE cumulée par année",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cumulative_sum\",\"params\":{\"metricAgg\":\"custom\",\"customMetric\":{\"id\":\"1-metric\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\"}}},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Total\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Cumulative Sum of Sum of costDecimal\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - PEE cumulée par année\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "022ddff0-411d-11eb-b203-c1261b108ffd",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzM4LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"category.label.keyword : \\\"Interêts\\\" \",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - PEE - Interêts par année",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"line\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total Interêts\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Total Interêts\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Total Interêts\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"interpolate\":\"linear\",\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"fittingFunction\":\"linear\",\"legendSize\":\"auto\"},\"title\":\"TR - PEE - Interêts par année\"}"
+      },
+      "references": [
+        {
+          "id": "56b5a390-4083-11eb-bb0c-db4f1254ee28",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "56b5a390-4083-11eb-bb0c-db4f1254ee28",
+      "type": "search",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.0.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "Wzg4LDEyXQ==",
+      "attributes": {
+        "columns": [
+          "from.category",
+          "from.label",
+          "category.type",
+          "category.category",
+          "category.label",
+          "costDecimal"
+        ],
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"filter\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"from.category\",\"params\":{\"query\":\"PEE\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"from.category\":\"PEE\"}},\"$state\":{\"store\":\"appState\"}}]}"
+        },
+        "sort": [],
+        "title": "Transactions - PEE",
+        "version": 1
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "f6b04290-e62f-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzQwLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"from.category.keyword\",\"negate\":false,\"params\":{\"query\":\"Perso\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"from.category.keyword\":\"Perso\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total - Perso",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":60,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"title\":\"TR - Total - Perso\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "ed272150-e632-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzQyLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"category.category.keyword\",\"negate\":true,\"params\":{\"query\":\"Revenu\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"category.category.keyword\":\"Revenu\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Perso - Dépenses par catégorie",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Dépense\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"legendDisplay\":\"show\",\"legendSize\":\"auto\"},\"title\":\"TR - Perso - Dépenses par catégorie\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "64b92200-4083-11eb-bb0c-db4f1254ee28",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "3ab89cf0-e633-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzQzLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Perso - Catégorie par année",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costAbsDecimal\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"group\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of costAbsDecimal\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Sum of costAbsDecimal\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Perso - Catégorie par année\"}"
+      },
+      "references": [
+        {
+          "id": "64b92200-4083-11eb-bb0c-db4f1254ee28",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "45d6fcd0-e633-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzQ0LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"category.category.keyword\",\"negate\":true,\"params\":{\"query\":\"Revenu\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"category.category.keyword\":\"Revenu\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Perso - Catégorie par année (Sans revenu)",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costAbsDecimal\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"group\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"filter\":true,\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false},\"labels\":{\"show\":false},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Sum of costAbsDecimal\"},\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"mode\":\"stacked\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\",\"circlesRadius\":1}],\"thresholdLine\":{\"color\":\"#E7664C\",\"show\":false,\"style\":\"full\",\"value\":10,\"width\":1},\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Sum of costAbsDecimal\"},\"type\":\"value\"}],\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Perso - Catégorie par année (Sans revenu)\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "64b92200-4083-11eb-bb0c-db4f1254ee28",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "803803c0-e632-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzQ1LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Dépense vs Recette Perso - Par année",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"income\",\"customLabel\":\"Recette\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"outcome\",\"customLabel\":\"Dépense\"},\"schema\":\"metric\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Recette\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Recette\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1},{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"id\":\"3\",\"label\":\"Dépense\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Dépense vs Recette Perso - Par année\"}"
+      },
+      "references": [
+        {
+          "id": "64b92200-4083-11eb-bb0c-db4f1254ee28",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "eea00000-417e-11eb-b203-c1261b108ffd",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzQ2LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{}"
+        },
+        "title": "TR - PERSO - Dépenses vs Recette",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"metrics\",\"aggs\":[],\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(104,188,0,0.35)\",\"split_mode\":\"filter\",\"split_color_mode\":\"kibana\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"sum\",\"field\":\"outcome\"}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Dépenses\",\"type\":\"timeseries\",\"split_filters\":[{\"color\":\"#68BC00\",\"id\":\"ecffcf70-417c-11eb-a446-c7456fb02abf\",\"filter\":{\"query\":\"\",\"language\":\"kuery\"}}],\"filter\":{\"query\":\"from.category : Perso\",\"language\":\"kuery\"},\"offset_time\":\"1y\",\"override_index_pattern\":1,\"series_index_pattern\":\"transactions\",\"series_time_field\":\"dateTimeFormatted\",\"series_interval\":\"1y\",\"series_drop_last_bucket\":1},{\"id\":\"63d4a5d0-417d-11eb-a446-c7456fb02abf\",\"color\":\"rgba(188,42,0,0.42)\",\"split_mode\":\"filter\",\"metrics\":[{\"id\":\"63d4a5d1-417d-11eb-a446-c7456fb02abf\",\"type\":\"sum\",\"field\":\"income\"}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"label\":\"Revenu\",\"type\":\"timeseries\",\"filter\":{\"query\":\"from.category : Perso\",\"language\":\"kuery\"},\"offset_time\":\"1y\",\"override_index_pattern\":1,\"series_index_pattern\":\"transactions\",\"series_time_field\":\"dateTimeFormatted\",\"series_interval\":\"1y\",\"series_drop_last_bucket\":1}],\"time_field\":\"\",\"index_pattern\":\"transactions\",\"interval\":\"\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"axis_scale\":\"normal\",\"show_legend\":1,\"show_grid\":1,\"isModelInvalid\":false,\"background_color_rules\":[{\"id\":\"e3d5c580-417c-11eb-a446-c7456fb02abf\"}],\"bar_color_rules\":[{\"id\":\"760f6fe0-417e-11eb-a446-c7456fb02abf\"}],\"drop_last_bucket\":0,\"use_kibana_indexes\":false},\"title\":\"TR - PERSO - Dépenses vs Recette\"}"
+      },
+      "references": [],
+      "managed": false
+    },
+    {
+      "id": "ec81c0f0-e62f-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzQ4LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"from.category.keyword\",\"negate\":false,\"params\":{\"query\":\"Commun\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"from.category.keyword\":\"Commun\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total - Commun",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":60,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"title\":\"TR - Total - Commun\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "d05de300-af15-11eb-b224-970e3f041688",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzUwLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"category.category.keyword\",\"negate\":true,\"params\":{\"query\":\"Revenu\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"category.category.keyword\":\"Revenu\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Commun - Dépenses par Catégorie",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Coût\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"legendPosition\":\"right\",\"isDonut\":false,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"legendDisplay\":\"show\",\"legendSize\":\"auto\"},\"title\":\"TR - Commun - Dépenses par Catégorie\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "f39be8e0-af14-11eb-b224-970e3f041688",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "2609e9d0-af15-11eb-b224-970e3f041688",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzUxLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Commun - Dépense vs Recette",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"income\",\"customLabel\":\"Recette\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"M\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Mois\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"outcome\",\"customLabel\":\"Dépense\"},\"schema\":\"metric\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Recette\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Recette\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1},{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"id\":\"3\",\"label\":\"Dépense\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Commun - Dépense vs Recette\"}"
+      },
+      "references": [
+        {
+          "id": "f39be8e0-af14-11eb-b224-970e3f041688",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "c4ca2f40-fce0-11ea-a785-79174f2a8edb",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzUzLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"metric\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"}],\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"title\":\"TR - Total\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "af9d5ee0-fc9e-11ea-a867-ad375effd9a5",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzU0LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total par type de compte en banque",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"from.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Type de compte en banque\"},\"schema\":\"bucket\"}],\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"percentageCol\":\"\",\"showToolbar\":true},\"title\":\"TR - Total par type de compte en banque\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "9c3daae0-fdb0-11ea-8d59-870ba8422ef6",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzU1LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"category.category.keyword\",\"negate\":true,\"params\":{\"query\":\"Revenu\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"category.category.keyword\":\"Revenu\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": " TR - Dépenses par catégorie pour l'année en cours",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costAbsDecimal\",\"customLabel\":\"Dépenses\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"isDonut\":false,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"legendDisplay\":\"show\",\"legendSize\":\"auto\"},\"title\":\" TR - Dépenses par catégorie pour l'année en cours\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "7d5a8590-fdaf-11ea-8d59-870ba8422ef6",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzU2LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Cumul par année",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cumulative_sum\",\"params\":{\"metricAgg\":\"custom\",\"customMetric\":{\"id\":\"1-metric\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\"}}},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1y\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Cumul\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Cumulative Sum of Sum of costDecimal\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Cumul par année\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "336d1890-fea8-11ea-9819-7fdf5ff8b5be",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzU3LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Dépense vs Recette par année",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"income\",\"customLabel\":\"Recette\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"outcome\",\"customLabel\":\"Dépense\"},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"now-12y/y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Recette\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Recette\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1},{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"id\":\"2\",\"label\":\"Dépense\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":false},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Dépense vs Recette par année\"}"
+      },
+      "references": [
+        {
+          "id": "ae685c90-fea7-11ea-9819-7fdf5ff8b5be",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "892e1750-e630-11eb-9619-2b8b4fc90292",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzU4LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total by Account Type over year",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"line\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cumulative_sum\",\"params\":{\"metricAgg\":\"custom\",\"customMetric\":{\"id\":\"1-metric\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\"}}},\"schema\":\"metric\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"from.category.keyword\",\"orderBy\":\"_key\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Type de compte\"},\"schema\":\"group\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"line\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Cumulative Sum of Sum of costDecimal\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"line\",\"mode\":\"normal\",\"data\":{\"label\":\"Cumulative Sum of Sum of costDecimal\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"interpolate\":\"linear\",\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"fittingFunction\":\"linear\",\"legendSize\":\"auto\"},\"title\":\"TR - Total by Account Type over year\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "a73a2050-fdaf-11ea-8d59-870ba8422ef6",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzU5LDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Total par année",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1y\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":0,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"}],\"params\":{\"type\":\"histogram\",\"grid\":{\"categoryLines\":false},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"filter\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Total\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Total\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"showCircles\":true,\"circlesRadius\":1}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"labels\":{\"show\":true},\"thresholdLine\":{\"show\":false,\"value\":10,\"width\":1,\"style\":\"full\",\"color\":\"#E7664C\"},\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Total par année\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "b9337490-fdb0-11ea-8d59-870ba8422ef6",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzYwLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":false,\"key\":\"category.category.keyword\",\"negate\":true,\"params\":{\"query\":\"Revenu\"},\"type\":\"phrase\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"category.category.keyword\":\"Revenu\"}}}]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": " TR - Dépenses par catégorie",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "visState": "{\"type\":\"pie\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costAbsDecimal\",\"customLabel\":\"Dépenses\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":20,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"segment\"}],\"params\":{\"addTooltip\":true,\"isDonut\":false,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"right\",\"type\":\"pie\",\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"distinctColors\":true,\"legendDisplay\":\"show\",\"legendSize\":\"auto\"},\"title\":\" TR - Dépenses par catégorie\"}"
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "d27fa560-37d3-11eb-8ffb-7740822ef9ce",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzYxLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"not category.category.keyword : \\\"Revenu\\\" \",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR - Coût par type de catégorie  et par année",
+        "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+        "version": 1,
+        "visState": "{\"type\":\"histogram\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costAbsDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"now-12y/y\",\"to\":\"now\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{},\"customLabel\":\"Année\"},\"schema\":\"segment\"},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.type.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"group\"}],\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"filter\":true,\"show\":true,\"truncate\":100},\"position\":\"bottom\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false},\"labels\":{\"show\":true},\"legendPosition\":\"right\",\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Total\"},\"drawLinesBetweenPoints\":true,\"lineWidth\":2,\"mode\":\"stacked\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\",\"circlesRadius\":1}],\"thresholdLine\":{\"color\":\"#E7664C\",\"show\":false,\"style\":\"full\",\"value\":10,\"width\":1},\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"LeftAxis-1\",\"position\":\"left\",\"scale\":{\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Total\"},\"type\":\"value\"}],\"palette\":{\"type\":\"palette\",\"name\":\"kibana_palette\"},\"isVislibVis\":true,\"detailedTooltip\":true,\"legendSize\":\"auto\"},\"title\":\"TR - Coût par type de catégorie  et par année\"}"
+      },
+      "references": [
+        {
+          "id": "ae685c90-fea7-11ea-9819-7fdf5ff8b5be",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "2bf92e70-58ce-11eb-8512-b12ed7c1c8fd",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzYyLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR- Total par année et catégorie parent",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"asc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"enhanced-table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.category.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":50,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"splitcols\"}],\"params\":{\"perPage\":20,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"computedColumns\":[],\"computedColsPerSplitCol\":false,\"hideExportLinks\":false,\"csvExportWithTotal\":false,\"stripedRows\":false,\"addRowNumberColumn\":false,\"csvEncoding\":\"utf-8\",\"showFilterBar\":false,\"filterCaseSensitive\":false,\"filterBarHideable\":false,\"filterAsYouType\":false,\"filterTermsSeparately\":false,\"filterHighlightResults\":false,\"filterBarWidth\":\"25%\",\"hiddenColumns\":\"\"},\"title\":\"TR- Total par année et catégorie parent\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "f3539320-58ce-11eb-8512-b12ed7c1c8fd",
+      "type": "visualization",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.5.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzYzLDExXQ==",
+      "attributes": {
+        "description": "",
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"filter\":[]}"
+        },
+        "savedSearchRefName": "search_0",
+        "title": "TR- Total par année et catégorie type",
+        "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":0,\"direction\":\"asc\"}}}}",
+        "version": 1,
+        "visState": "{\"type\":\"enhanced-table\",\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"params\":{\"field\":\"costDecimal\",\"customLabel\":\"Total\"},\"schema\":\"metric\"},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"params\":{\"field\":\"category.type.keyword\",\"orderBy\":\"1\",\"order\":\"desc\",\"size\":5,\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"Catégorie\"},\"schema\":\"bucket\"},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"params\":{\"field\":\"dateTimeFormatted\",\"timeRange\":{\"from\":\"2010-12-31T20:05:19.702Z\",\"to\":\"now+1M\"},\"useNormalizedEsInterval\":true,\"scaleMetricValues\":false,\"interval\":\"y\",\"drop_partials\":false,\"min_doc_count\":1,\"extended_bounds\":{}},\"schema\":\"splitcols\"}],\"params\":{\"perPage\":5,\"showPartialRows\":false,\"showMetricsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"computedColumns\":[],\"computedColsPerSplitCol\":false,\"hideExportLinks\":false,\"csvExportWithTotal\":false,\"stripedRows\":false,\"addRowNumberColumn\":false,\"csvEncoding\":\"utf-8\",\"showFilterBar\":false,\"filterCaseSensitive\":false,\"filterBarHideable\":false,\"filterAsYouType\":false,\"filterTermsSeparately\":false,\"filterHighlightResults\":false,\"filterBarWidth\":\"25%\",\"hiddenColumns\":\"\"},\"title\":\"TR- Total par année et catégorie type\"}"
+      },
+      "references": [
+        {
+          "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+          "name": "search_0",
+          "type": "search"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "4fb551e0-fbef-11ea-b2d0-e7a9030c3757",
+      "type": "search",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.0.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "Wzg2LDEyXQ==",
+      "attributes": {
+        "columns": [
+          "from.category",
+          "from.label",
+          "category.type",
+          "category.category",
+          "category.label",
+          "costDecimal"
+        ],
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"filter\":[]}"
+        },
+        "sort": [],
+        "title": "Transactions",
+        "version": 1
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "ae685c90-fea7-11ea-9819-7fdf5ff8b5be",
+      "type": "search",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.0.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "Wzg3LDEyXQ==",
+      "attributes": {
+        "columns": [
+          "from.category",
+          "from.label",
+          "category.category",
+          "category.label",
+          "costDecimal"
+        ],
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"category.id : * \",\"language\":\"kuery\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"filter\":[]}"
+        },
+        "sort": [],
+        "title": "Transactions without transfer",
+        "version": 1
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+      "type": "index-pattern",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.0.0",
+      "updated_at": "2023-09-07T12:37:21.918Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzE4MCwxOF0=",
+      "attributes": {
+        "fields": "[]",
+        "timeFieldName": "dateTimeFormatted",
+        "title": "transactions",
+        "fieldFormatMap": "{}",
+        "runtimeFieldMap": "{}",
+        "fieldAttrs": "{\"category.label\":{\"count\":2},\"from.category\":{\"count\":1},\"from.label\":{\"count\":1}}",
+        "sourceFilters": "[]",
+        "typeMeta": "{}",
+        "name": "transactions"
+      },
+      "references": [],
+      "managed": false
+    },
+    {
+      "id": "64b92200-4083-11eb-bb0c-db4f1254ee28",
+      "type": "search",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.0.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "Wzg5LDEyXQ==",
+      "attributes": {
+        "columns": [
+          "from.category",
+          "from.label",
+          "category.type",
+          "category.category",
+          "category.label",
+          "costDecimal"
+        ],
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"filter\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"from.category\",\"params\":{\"query\":\"Perso\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"from.category\":\"Perso\"}},\"$state\":{\"store\":\"appState\"}}]}"
+        },
+        "sort": [],
+        "title": "Transactions - Perso",
+        "version": 1
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        }
+      ],
+      "managed": false
+    },
+    {
+      "id": "f39be8e0-af14-11eb-b224-970e3f041688",
+      "type": "search",
+      "namespaces": [
+        "default"
+      ],
+      "coreMigrationVersion": "8.8.0",
+      "typeMigrationVersion": "8.0.0",
+      "updated_at": "2023-08-31T19:58:52.995Z",
+      "created_at": "2023-08-31T19:58:52.995Z",
+      "version": "WzkwLDEyXQ==",
+      "attributes": {
+        "columns": [
+          "from.category",
+          "from.label",
+          "category.type",
+          "category.category",
+          "category.label",
+          "costDecimal"
+        ],
+        "description": "",
+        "hits": 0,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"filter\":[{\"meta\":{\"alias\":null,\"negate\":false,\"disabled\":false,\"type\":\"phrase\",\"key\":\"from.category\",\"params\":{\"query\":\"Commun\"},\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match_phrase\":{\"from.category\":\"Commun\"}},\"$state\":{\"store\":\"appState\"}}]}"
+        },
+        "sort": [],
+        "title": "Transactions - Commun",
+        "version": 1
+      },
+      "references": [
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+          "type": "index-pattern"
+        },
+        {
+          "id": "97bfafd0-fcdf-11ea-a785-79174f2a8edb",
+          "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+          "type": "index-pattern"
+        }
+      ],
+      "managed": false
+    }
+  ]
+}

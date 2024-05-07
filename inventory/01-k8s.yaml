@@ -1,0 +1,6 @@
+k8s:
+  hosts:
+    localhost:
+      ansible_connection: local
+  vars:
+    k8s_api: https://127.0.0.1:38697

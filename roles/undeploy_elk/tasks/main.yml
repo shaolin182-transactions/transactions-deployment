@@ -1,0 +1,5 @@
+- name: Undeploy Elastic stack
+  ansible.builtin.include_tasks: undeploy_es.yml
+# TODO Backup configuration
+# TODO : Delete volume
+
