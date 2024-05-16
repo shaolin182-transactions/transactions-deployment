@@ -28,6 +28,10 @@ k8s:
           imageName: "jugirard/transactions-ihm-angular"
           imageVersion: "1.0.0"
 
+        transactionsBackOffice:
+          imageName: "jugirard/transactions-java-server"
+          imageVersion: "v1.4.0"
+
         transactionsConfigServer:
           # Warning, single quote have been doubled inside value
           passphrase: !vault |

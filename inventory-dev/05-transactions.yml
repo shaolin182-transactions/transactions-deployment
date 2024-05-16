@@ -30,7 +30,7 @@ k8s:
 
         transactionsBackOffice:
           imageName: "jugirard/transactions-java-server"
-          imageVersion: "v1.4.0-RC2"
+          imageVersion: "v1.4.0-RC3"
 
         transactionsConfigServer:
           # Warning, single quote have been doubled inside value
