@@ -31,12 +31,12 @@
     realm: "{{ keycloak.realm_name }}"
     client_id: transactions-client
     state: present
-    root_url: http://localhost/*
-    admin_url: http://localhost/*
+    root_url: "http://{{ transactions_ihm_fqdn }}/*"
+    admin_url: "http://{{ transactions_ihm_fqdn }}/*"
     redirect_uris:
-      - http://localhost/*
+      - "http://{{ transactions_ihm_fqdn }}/*"
     web_origins:
-      - http://localhost
+      - "http://{{ transactions_ihm_fqdn }}"
     standard_flow_enabled: true
     default_client_scopes:
       - reader

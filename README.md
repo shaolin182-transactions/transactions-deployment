@@ -17,7 +17,7 @@ mongorestore --db=transactions --collection=transaction dump/transaction.bson
 Copy last dump into pod
 
 ```shell
-kubectl cp dump/20230616/ kubtransactions/mongo-5bc55dc5f9-gbndx:/dump
+kubectl cp 20240907/ transactions-ansible-mongodb-84b5b9db56-75hfs:/tmp -n transactions-ansible
 ```
 
 From inside pod

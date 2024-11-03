@@ -11,6 +11,8 @@
     chart_version: "{{ es.helm_repo.version }}"
     host: "{{ k8s_api }}"
     state: present
+    create_namespace: true
+    kubeconfig: /etc/config/.kube/config
 
 - name: Wait till pods are running
   kubernetes.core.k8s_info:
@@ -19,6 +21,7 @@
     namespace: "{{ es.namespace }}"
     wait_sleep: 10
     wait_timeout: 360
+    kubeconfig: /etc/config/.kube/config
 
 - name: Deploy Kibana
   kubernetes.core.helm:
@@ -29,6 +32,9 @@
     host: "{{ k8s_api }}"
     state: present
     values: "{{ kibana.chart_values }}"
+    kubeconfig: /etc/config/.kube/config
+    create_namespace: true
+
 - name: Wait till pods are running
   kubernetes.core.k8s_info:
     kind: Pod
@@ -36,6 +42,7 @@
     namespace: "{{ kibana.namespace }}"
     wait_sleep: 10
     wait_timeout: 360
+    kubeconfig: /etc/config/.kube/config
 
 
 

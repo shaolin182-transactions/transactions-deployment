@@ -13,6 +13,7 @@
     host: "{{ k8s_api }}"
     state: present
     values: "{{ transactions.chart_values }}"
+    kubeconfig: /etc/config/.kube/config
 
 
 
