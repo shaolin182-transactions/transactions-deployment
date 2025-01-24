@@ -13,6 +13,7 @@
     state: present
     values: "{{ keycloak.chart_values }}"
     create_namespace: true
+    kubeconfig: /etc/config/.kube/config
 
 - name: Wait till pods are running
   kubernetes.core.k8s_info:
@@ -21,3 +22,4 @@
     namespace: "{{ keycloak.namespace }}"
     wait_sleep: 10
     wait_timeout: 360
+    kubeconfig: /etc/config/.kube/config

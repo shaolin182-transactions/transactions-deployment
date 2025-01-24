@@ -1,0 +1,18 @@
+services:
+  ansible-dev-container:
+    tty: true
+    build:
+      dockerfile: ./Dockerfile
+
+    extra_hosts:
+      - "kibana.shaolin.perso=192.168.0.33"
+      - "transactions.shaolin.perso=192.168.0.33"
+      - "transactions-bo.shaolin.perso=192.168.0.33"
+      - "transactions-sync.shaolin.perso=192.168.0.33"
+      - "keycloak.shaolin.perso=192.168.0.33"
+      - "elasticsearch.shaolin.perso=192.168.0.33"
+
+    volumes:
+      - ../../:/app
+      - ~/.kube/:/etc/config/.kube
+      - ../../../transactions-inventory:/etc/inventory

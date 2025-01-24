@@ -5,6 +5,8 @@
 
 - name: Deploy Transactions App
   kubernetes.core.helm:
+    force: true
+    update_repo_cache: true
     release_name: "{{ transactions.helm_release_name }}"
     release_namespace: "{{ transactions.helm_release_name }}"
     chart_ref: "{{ transactions.chart_ref }}"
@@ -13,6 +15,7 @@
     host: "{{ k8s_api }}"
     state: present
     values: "{{ transactions.chart_values }}"
+    kubeconfig: /etc/config/.kube/config
 
 
 

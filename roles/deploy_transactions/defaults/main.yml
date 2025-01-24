@@ -1,0 +1,12 @@
+# Load templates into variables for using it in Helm Chart
+
+# Config related to IHM
+transactions_ihm_angular_config: "{{ lookup('ansible.builtin.template', '{{ inventory_dir }}/templates/transactions-ihm-angular-config.json.j2') }}"
+transactions_ihm_angular_categories_config: "{{ lookup('ansible.builtin.file', '{{ inventory_dir }}/files/transactions-ihm-angular-categories.json') }}"
+transactions_ihm_angular_bankaccount_config: "{{ lookup('ansible.builtin.file', '{{ inventory_dir }}/files/transactions-ihm-angular-bankAccount.json') }}"
+
+# Config related to Transactions server
+transactions_java_server_config: "{{ lookup('ansible.builtin.template', '{{ inventory_dir }}/templates/transactions-java-server-application.yml.j2') }}"
+
+# Config related to Sync Server
+transactions_sync_server_config: "{{ lookup('ansible.builtin.template', '{{ inventory_dir }}/templates/transactions-sync-application.properties.j2') }}"
