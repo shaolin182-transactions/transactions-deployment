@@ -5,6 +5,7 @@
 
 - name: Deploy Transactions App
   kubernetes.core.helm:
+    atomic: true
     force: true
     update_repo_cache: true
     release_name: "{{ transactions.helm_release_name }}"

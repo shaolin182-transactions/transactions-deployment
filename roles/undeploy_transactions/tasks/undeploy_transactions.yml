@@ -6,3 +6,4 @@
     create_namespace: true
     host: "{{ k8s_api }}"
     state: absent
+    kubeconfig: /etc/config/.kube/config
