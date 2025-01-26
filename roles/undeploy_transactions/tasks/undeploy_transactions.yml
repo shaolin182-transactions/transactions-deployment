@@ -1,8 +1,9 @@
-- name: UNdeploy Transactions App
+- name: Undeploy Transactions App
   kubernetes.core.helm:
-    release_name: "transactions-ansible"
-    release_namespace: "transactions-ansible"
-    chart_ref: /media/julien/RAID/Dev/Projet/Transactions/transactions-helm-chart/transactions-helm-chart-0.1.0.tgz
-    create_namespace: true
+    release_name: "{{ transactions.helm_release_name }}"
+    release_namespace: "{{ transactions.helm_release_name }}"
+    chart_ref: "{{ transactions.chart_ref }}"
+    chart_version: "{{ transactions.chart_version }}"
     host: "{{ k8s_api }}"
     state: absent
+    kubeconfig: /etc/config/.kube/config

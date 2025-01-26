@@ -1,4 +1,4 @@
-- name: Deploy Keycloak
+- name: Undeploy Keycloak
   ansible.builtin.include_tasks: undeploy_keycloak.yml
 
 

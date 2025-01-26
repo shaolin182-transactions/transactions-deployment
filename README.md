@@ -9,7 +9,7 @@ Several configuration can exist depending on technologies
 
 ## Dump database
 ```shell
-mongorestore --db=transactions --collection=transaction dump/transaction.bson
+mongodump --out=/tmp
 ```
 
 ## Restore database
@@ -35,10 +35,14 @@ CONFIG_PRIVATEKEY=$(cat ./env/id_rsa) docker compose -f docker-compose-local.yml
 
 ```shell
 # Install
-ansible-playbook transactions-deploy-playbook.yml -i inventory --ask-vault-pass
+ansible-playbook fluentd-deploy-playbook.yml -i /etc/inventory/prod --ask-vault-pass
+
+ansible-playbook transactions-deploy-playbook.yml -i /etc/inventory/prod --ask-vault-pass
+ansible-playbook transactions-deploy-playbook.yml -i /etc/inventory/staging --ask-vault-pass
 
 # Uninstall
-ansible-playbook transactions-undeploy-playbook.yml -i inventory --ask-vault-pass
+ansible-playbook transactions-undeploy-playbook.yml -i /etc/inventory/prod --ask-vault-pass
+ansible-playbook transactions-undeploy-playbook.yml -i /etc/inventory/staging --ask-vault-pass
 ```
 
 # Administration

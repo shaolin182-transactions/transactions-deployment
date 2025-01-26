@@ -8,6 +8,7 @@
     chart_version: "{{ keycloak.helm_repo.version }}"
     host: "{{ k8s_api }}"
     state: absent
+    kubeconfig: /etc/config/.kube/config
 
 - name: Remove Bitnami Helm Repo
   kubernetes.core.helm_repository:
@@ -19,3 +20,4 @@
     kind: namespace
     name: "{{ keycloak.namespace }}"
     state: absent
+    kubeconfig: /etc/config/.kube/config

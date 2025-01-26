@@ -6,6 +6,7 @@
     chart_version: "{{ es.helm_repo.version }}"
     host: "{{ k8s_api }}"
     state: absent
+    kubeconfig: /etc/config/.kube/config
 
 - name: Undeploy Kibana
   kubernetes.core.helm:
@@ -15,6 +16,7 @@
     chart_version: "{{ kibana.helm_repo.version }}"
     host: "{{ k8s_api }}"
     state: absent
+    kubeconfig: /etc/config/.kube/config
 
 - name: Remove Bitnami Helm Repo
   kubernetes.core.helm_repository:

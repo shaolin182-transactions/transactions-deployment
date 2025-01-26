@@ -1,5 +1,5 @@
 # Import Kibana data
-- name: Import Saved objects into Kibana
+- name: Configure Kibana Dashboard
   ansible.builtin.uri:
     url: "http://{{ transactions_kibana_fqdn }}/api/kibana/dashboards/import"
     method: POST
@@ -7,3 +7,4 @@
     body_format: json
     headers:
       kbn-xsrf: "reporting"
+  when: kibana.deploy  == "true"
