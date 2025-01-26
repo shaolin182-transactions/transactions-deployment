@@ -11,6 +11,12 @@ services:
       - "transactions-sync.shaolin.perso=192.168.0.33"
       - "keycloak.shaolin.perso=192.168.0.33"
       - "elasticsearch.shaolin.perso=192.168.0.33"
+      - "kibana.shaolin.staging.perso=192.168.0.33"
+      - "transactions.shaolin.staging.perso=192.168.0.33"
+      - "transactions-bo.shaolin.staging.perso=192.168.0.33"
+      - "transactions-sync.shaolin.staging.perso=192.168.0.33"
+      - "keycloak.shaolin.staging.perso=192.168.0.33"
+      - "elasticsearch.shaolin.staging.perso=192.168.0.33"
 
     volumes:
       - ../../:/app
