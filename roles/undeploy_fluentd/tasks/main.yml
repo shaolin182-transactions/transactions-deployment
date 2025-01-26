@@ -1,0 +1,4 @@
+- name: Undeploy Fluentd
+  ansible.builtin.include_tasks: undeploy_fluentd.yml
+
+

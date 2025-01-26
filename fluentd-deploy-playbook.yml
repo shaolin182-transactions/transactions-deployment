@@ -1,0 +1,5 @@
+- name: Install Fluentd
+  hosts: k8s
+  tasks:
+    - ansible.builtin.include_role:
+        name: deploy_fluentd

@@ -1,0 +1,25 @@
+- name: Add Helm Repo
+  kubernetes.core.helm_repository:
+    repo_name: "{{ fluentd.helm_repo.name }}"
+    repo_url: "{{ fluentd.helm_repo.url }}"
+
+- name: Deploy Fluentd
+  kubernetes.core.helm:
+    release_name: "{{ fluentd.release_name }}"
+    release_namespace: "{{ fluentd.namespace }}"
+    chart_ref: "{{ fluentd.helm_repo.chart }}"
+    chart_version: "{{ fluentd.helm_repo.version }}"
+    host: "{{ k8s_api }}"
+    state: present
+    values: "{{ fluentd.chart_values }}"
+    create_namespace: true
+    kubeconfig: /etc/config/.kube/config
+
+- name: Wait till pods are running
+  kubernetes.core.k8s_info:
+    kind: Pod
+    wait: yes
+    namespace: "{{ fluentd.namespace }}"
+    wait_sleep: 10
+    wait_timeout: 360
+    kubeconfig: /etc/config/.kube/config

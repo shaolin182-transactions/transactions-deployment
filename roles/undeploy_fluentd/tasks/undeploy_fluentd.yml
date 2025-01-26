@@ -1,0 +1,22 @@
+# TODO Backup data/configuration
+
+- name: Undeploy fluentd
+  kubernetes.core.helm:
+    release_name: "{{ fluentd.release_name }}"
+    release_namespace: "{{ fluentd.namespace }}"
+    chart_ref: "{{ fluentd.helm_repo.chart }}"
+    chart_version: "{{ fluentd.helm_repo.version }}"
+    host: "{{ k8s_api }}"
+    state: absent
+    kubeconfig: /etc/config/.kube/config
+
+- name: Remove Bitnami Helm Repo
+  kubernetes.core.helm_repository:
+    repo_name: "{{ fluentd.helm_repo.name }}"
+    repo_state: absent
+
+- name: Delete fluentd namespace
+  kubernetes.core.k8s:
+    kind: namespace
+    name: "{{ fluentd.namespace }}"
+    state: absent
